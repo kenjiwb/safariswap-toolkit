@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/eslint-config-pancake",
+  "name": "@safariswap/eslint-config-pancake",
   "version": "1.1.1",
   "description": "Eslint config for PancakeSwap",
   "main": "lib/index.js",
@@ -27,5 +27,6 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://npm.pkg.github.com/"
-  }
+  },
+  "gitHead": "aef42e75ece2412f1683bcef1b0c60df86bcfc6c"
 }

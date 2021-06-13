@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/uikit",
+  "name": "@safariswap/uikit",
   "version": "0.38.1",
   "description": "Set of UI components for pancake projects",
   "main": "dist/index.cjs.js",
@@ -54,5 +54,6 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://npm.pkg.github.com/"
-  }
+  },
+  "gitHead": "aef42e75ece2412f1683bcef1b0c60df86bcfc6c"
 }
