@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.3](https://github.com/newtes/safariswap-toolkit/compare/@safariswap/eslint-config-pancake@1.1.2...@safariswap/eslint-config-pancake@1.1.3) (2021-06-13)
+
+
+### Bug Fixes
+
+* **config:** Update repo url ([9419270](https://github.com/newtes/safariswap-toolkit/commit/94192709ab1485b29d64d30595c2da4f529b18f0))
+
+
+
+
+
 ## 1.1.2 (2021-06-13)
 
 
