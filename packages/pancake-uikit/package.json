@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit",
+  "repository": "https://github.com/newtes/safariswap-toolkit/tree/main/packages/pancake-uikit",
   "license": "MIT",
   "scripts": {
     "start": "yarn storybook",
@@ -52,6 +52,7 @@
     "styled-system": "^5.1.5"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
   }
 }
