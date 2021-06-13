@@ -1,5 +1,5 @@
 {
-  "name": "@safariswap/uikit",
+  "name": "@newtes/uikit",
   "version": "0.38.3",
   "description": "Set of UI components for pancake projects",
   "main": "dist/index.cjs.js",
@@ -56,8 +56,9 @@
     "styled-system": "^5.1.5"
   },
   "publishConfig": {
+    "name": "@newtes/uikit",
     "access": "public",
     "registry": "https://npm.pkg.github.com/"
   },
-  "gitHead": "cc997d620d5af677816380c29f0f1a1c31f72371"
+  "gitHead": "7d67ea13c036f9069d5befd46cf4d65c80483721"
 }
