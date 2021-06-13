@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.38.4 (2021-06-13)
+
+
+### Bug Fixes
+
+* **config:** Update config ([d0bf8d2](https://github.com/newtes/safariswap-toolkit/commit/d0bf8d25ce4c624c6dbe4d0425a08d492d163bc5))
+* **config:** Update config ([08f47f0](https://github.com/newtes/safariswap-toolkit/commit/08f47f0901491add4a4b28852541d5bc25ea8fd9))
+* **config:** Update project name ([459bbc4](https://github.com/newtes/safariswap-toolkit/commit/459bbc4d3ac8876c487be5255a8f5271f9297b0b))
+* **config:** Update repo url ([9419270](https://github.com/newtes/safariswap-toolkit/commit/94192709ab1485b29d64d30595c2da4f529b18f0))
+
+
+
+
+
 ## [0.38.3](https://github.com/newtes/safariswap-toolkit/compare/@safariswap/uikit@0.38.2...@safariswap/uikit@0.38.3) (2021-06-13)
 
 

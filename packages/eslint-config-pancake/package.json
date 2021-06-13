@@ -1,6 +1,6 @@
 {
   "name": "@newtes/eslint-config-pancake",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Eslint config for PancakeSwap",
   "main": "lib/index.js",
   "files": [
