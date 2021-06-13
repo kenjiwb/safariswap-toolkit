@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.38.1 (2021-06-13)
+
+
+### Bug Fixes
+
+* **config:** Update config ([08f47f0](https://github.com/newtes/safariswap-toolkit/tree/main/packages/pancake-uikit/commit/08f47f0901491add4a4b28852541d5bc25ea8fd9))
+
+
+
+
+
 # [0.38.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.37.1...@pancakeswap/uikit@0.38.0) (2021-06-11)
 
 
