@@ -6,7 +6,11 @@
   "files": [
     "lib"
   ],
-  "repository": "https://github.com/newtes/safariswap-toolkit/tree/main/packages/eslint-config-pancake",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/newtes/safariswap-toolkit.git",
+    "directory": "packages/eslint-config-pancake"
+  },
   "license": "MIT",
   "author": "RabbitDoge",
   "private": false,
@@ -28,5 +32,5 @@
     "access": "public",
     "registry": "https://npm.pkg.github.com/"
   },
-  "gitHead": "aef42e75ece2412f1683bcef1b0c60df86bcfc6c"
+  "gitHead": "cc997d620d5af677816380c29f0f1a1c31f72371"
 }
