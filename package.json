@@ -1,20 +1,20 @@
 {
-  "name": "pancake-toolkit",
+  "name": "safari-toolkit",
   "version": "1.0.0",
-  "description": "Pancake frontend packages",
+  "description": "Safari frontend packages",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/newtes/safariswap-toolkit.git"
+    "url": "git+https://github.com/kenjiwb/safariswap-toolkit.git"
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/newtes/safariswap-toolkit/issues"
+    "url": "https://github.com/kenjiwb/safariswap-toolkit/issues"
   },
-  "homepage": "https://github.com/newtes/safariswap-toolkit#readme",
+  "homepage": "https://github.com/kenjiwb/safariswap-toolkit#readme",
   "scripts": {
     "build": "lerna run build",
     "test": "lerna run test",
