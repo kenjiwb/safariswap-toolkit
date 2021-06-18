@@ -1,5 +1,5 @@
 {
-  "name": "@newtes/uikit",
+  "name": "@kenjiwb/uikit",
   "version": "0.38.4",
   "description": "Set of UI components for pancake projects",
   "main": "dist/index.cjs.js",
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/newtes/safariswap-toolkit.git",
+    "url": "ssh://git@github.com/kenjiwb/safariswap-toolkit.git",
     "directory": "packages/pancake-uikit"
   },
   "license": "MIT",
@@ -56,7 +56,7 @@
     "styled-system": "^5.1.5"
   },
   "publishConfig": {
-    "name": "@newtes/uikit",
+    "name": "@kenjiwb/uikit",
     "access": "public",
     "registry": "https://npm.pkg.github.com/"
   },
