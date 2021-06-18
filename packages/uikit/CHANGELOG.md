@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.38.5 (2021-06-18)
+
+
+### Bug Fixes
+
+* **Config:** Update package config ([#1](https://github.com/kenjiwb/safariswap-toolkit/issues/1)) ([60a3924](https://github.com/kenjiwb/safariswap-toolkit/commit/60a3924e5fe941b4647f526b281d8e72a9054afd))
+
+
+
+
+
 ## 0.38.4 (2021-06-13)
 
 
