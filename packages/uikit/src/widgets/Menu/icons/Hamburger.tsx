@@ -4,8 +4,33 @@ import { SvgProps } from "../../../components/Svg/types";
 
 const Icon: React.FC<SvgProps> = (props) => {
   return (
-    <Svg viewBox="0 0 24 24" {...props}>
-      <path d="M4 18H20C20.55 18 21 17.55 21 17C21 16.45 20.55 16 20 16H4C3.45 16 3 16.45 3 17C3 17.55 3.45 18 4 18ZM4 13H20C20.55 13 21 12.55 21 12C21 11.45 20.55 11 20 11H4C3.45 11 3 11.45 3 12C3 12.55 3.45 13 4 13ZM3 7C3 7.55 3.45 8 4 8H20C20.55 8 21 7.55 21 7C21 6.45 20.55 6 20 6H4C3.45 6 3 6.45 3 7Z" />
+    <Svg viewBox="0 0 200 200" {...props}>
+      <defs>
+        <style>{`.cls-1{fill:url(#linear-gradient);}.cls-2{fill:url(#linear-gradient-2);}.cls-3{fill:url(#linear-gradient-3);}`}</style>
+        <linearGradient id="linear-gradient" x1="14.08" y1="60" x2="185.92" y2="60" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#3e473a" />
+          <stop offset="0.18" stop-color="#71723b" />
+          <stop offset="0.38" stop-color="#a39d3c" />
+          <stop offset="0.57" stop-color="#cbbf3c" />
+          <stop offset="0.74" stop-color="#e8d73d" />
+          <stop offset="0.89" stop-color="#f9e63d" />
+          <stop offset="1" stop-color="#ffeb3d" />
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" x1="14.08" y1="100" x2="185.92" y2="100" xlinkHref="#linear-gradient" />
+        <linearGradient id="linear-gradient-3" x1="14.08" y1="140" x2="185.92" y2="140" xlinkHref="#linear-gradient" />
+      </defs>
+      <path
+        className="cls-1"
+        d="M19.79,60A369.42,369.42,0,0,1,59.9,55.52q20-1.25,40.1-1.23t40.1,1.22A364.53,364.53,0,0,1,180.21,60a364.53,364.53,0,0,1-40.11,4.49q-20,1.26-40.1,1.22T59.9,64.48A369.42,369.42,0,0,1,19.79,60Z"
+      />
+      <path
+        className="cls-2"
+        d="M19.79,100A369.42,369.42,0,0,1,59.9,95.52q20-1.24,40.1-1.23t40.1,1.22A364.53,364.53,0,0,1,180.21,100a364.53,364.53,0,0,1-40.11,4.49q-20,1.26-40.1,1.22t-40.1-1.23A369.42,369.42,0,0,1,19.79,100Z"
+      />
+      <path
+        className="cls-3"
+        d="M19.79,140a369.42,369.42,0,0,1,40.11-4.48q20-1.25,40.1-1.23t40.1,1.22A364.53,364.53,0,0,1,180.21,140a364.53,364.53,0,0,1-40.11,4.49q-20,1.26-40.1,1.22t-40.1-1.23A369.42,369.42,0,0,1,19.79,140Z"
+      />
     </Svg>
   );
 };
