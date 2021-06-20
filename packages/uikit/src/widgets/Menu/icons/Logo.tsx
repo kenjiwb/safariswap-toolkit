@@ -3,10 +3,10 @@ import Svg from "../../../components/Svg/Svg";
 import { SvgProps } from "../../../components/Svg/types";
 
 interface LogoProps extends SvgProps {
-  isDark: boolean;
+  isDark?: boolean;
 }
 
-const Logo: React.FC<LogoProps> = ({ isDark, ...props }) => {
+const Logo: React.FC<LogoProps> = ({ ...props }) => {
   return (
     <Svg viewBox="0 0 2500 1000" {...props}>
       <defs>

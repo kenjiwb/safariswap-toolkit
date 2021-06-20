@@ -24,16 +24,7 @@ const SettingsEntry = styled.div`
   padding: 0 8px;
 `;
 
-const PanelHeader: React.FC<Props> = ({
-  isPushed,
-  pushNav,
-  toggleTheme,
-  isDark,
-  cakePriceUsd,
-  currentLang,
-  langs,
-  setLang,
-}) => {
+const PanelHeader: React.FC<Props> = ({ isPushed, pushNav, cakePriceUsd, currentLang, langs, setLang }) => {
   if (!isPushed) {
     return (
       <Container>
