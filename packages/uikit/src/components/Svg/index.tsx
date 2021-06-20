@@ -29,6 +29,7 @@ export { default as CopyIcon } from "./Icons/Copy";
 export { default as CrownIcon } from "./Icons/Crown";
 export { default as ErrorIcon } from "./Icons/Error";
 export { default as HelpIcon } from "./Icons/Help";
+export { default as HarvestIcon } from "./Icons/Harvest";
 export { default as HistoryIcon } from "./Icons/History";
 export { default as InfoIcon } from "./Icons/Info";
 export { default as LaurelLeftIcon } from "./Icons/LaurelLeft";
