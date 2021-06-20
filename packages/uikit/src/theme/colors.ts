@@ -12,7 +12,7 @@ export const baseColors = {
 
 export const additionalColors = {
   binance: "#F0B90B",
-  overlay: "#452a7a",
+  overlay: "#7183533d",
 };
 
 export const lightColors: Colors = {
@@ -48,9 +48,9 @@ export const darkColors: Colors = {
   ...baseColors,
   ...additionalColors,
   secondary: "#9A6AFF",
-  background: "#08060B",
+  background: "#15171A",
   backgroundDisabled: "#3c3742",
-  backgroundAlt: "#27262c",
+  backgroundAlt: "#718353",
   cardBorder: "#383241",
   contrast: "#FFFFFF",
   dropdown: "#1E1D20",
@@ -59,10 +59,10 @@ export const darkColors: Colors = {
   input: "#372F47",
   inputSecondary: "#262130",
   primaryDark: "#0098A1",
-  tertiary: "#353547",
-  text: "#F4EEFF",
+  tertiary: "#384038",
+  text: "#FFFFFF",
   textDisabled: "#666171",
-  textSubtle: "#B8ADD2",
+  textSubtle: "#FEEF03",
   disabled: "#524B63",
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",

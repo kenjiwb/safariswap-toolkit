@@ -4,14 +4,22 @@ export { default as HamburgerIcon } from "./Hamburger";
 export { default as HamburgerCloseIcon } from "./HamburgerClose";
 export { default as HomeIcon } from "./Home";
 export { default as IfoIcon } from "./Ifo";
+
+export { default as ClaimPrizeIcon } from "./ClaimPrize";
 export { default as InfoIcon } from "./Info";
 export { default as LanguageIcon } from "./Language";
 export { default as LogoIcon } from "./Logo";
 export { default as MoonIcon } from "./Moon";
+
+export { default as LootboxIcon } from "./Lootbox";
 export { default as MoreIcon } from "./More";
 export { default as NftIcon } from "./Nft";
 export { default as PoolIcon } from "./Pool";
 export { default as PredictionsIcon } from "./Predictions";
+
+export { default as NFTMarketIcon } from "./NFTMarket";
+export { default as YourNFTIcon } from "./YourNFT";
+export { default as BeginnerGuideIcon } from "./BeginnerGuide";
 export { default as SunIcon } from "./Sun";
 export { default as TeamBattleIcon } from "./TeamBattle";
 export { default as TelegramIcon } from "./Telegram";
