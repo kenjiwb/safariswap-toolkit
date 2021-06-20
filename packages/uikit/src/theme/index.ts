@@ -14,7 +14,8 @@ export interface PancakeTheme {
   alert: AlertTheme;
   colors: Colors;
   card: CardTheme;
-  nav: NavTheme;
+  topNav: NavTheme;
+  sideNav: NavTheme;
   modal: ModalTheme;
   pancakeToggle: PancakeToggleTheme;
   radio: RadioTheme;
