@@ -8,13 +8,13 @@ const Icon: React.FC<SvgProps> = (props) => {
       <defs>
         <style>{`.cls-1{isolation:isolate;}.cls-2{opacity:0.3;mix-blend-mode:multiply;}.cls-3{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:11.29px;stroke:url(#linear-gradient);}.cls-4{font-size:56.46px;fill:#ffeb3d;font-family:Poppins-Bold, Poppins;font-weight:700;}`}</style>
         <linearGradient id="linear-gradient" x1="44.35" y1="150" x2="255.65" y2="150" gradientUnits="userSpaceOnUse">
-          <stop offset="0" stop-color="#3e473a" />
-          <stop offset="0.18" stop-color="#71723b" />
-          <stop offset="0.38" stop-color="#a39d3c" />
-          <stop offset="0.57" stop-color="#cbbf3c" />
-          <stop offset="0.74" stop-color="#e8d73d" />
-          <stop offset="0.89" stop-color="#f9e63d" />
-          <stop offset="1" stop-color="#ffeb3d" />
+          <stop offset="0" stopColor="#3e473a" />
+          <stop offset="0.18" stopColor="#71723b" />
+          <stop offset="0.38" stopColor="#a39d3c" />
+          <stop offset="0.57" stopColor="#cbbf3c" />
+          <stop offset="0.74" stopColor="#e8d73d" />
+          <stop offset="0.89" stopColor="#f9e63d" />
+          <stop offset="1" stopColor="#ffeb3d" />
         </linearGradient>
       </defs>
       <g className="cls-1">
