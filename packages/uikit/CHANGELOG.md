@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.40.1](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.40.0...@kenjiwb/uikit@0.40.1) (2021-06-23)
+
+
+### Bug Fixes
+
+* **Icon:** Update <FarmFilledIcon /> ([#4](https://github.com/kenjiwb/safariswap-toolkit/issues/4)) ([b913aa0](https://github.com/kenjiwb/safariswap-toolkit/commit/b913aa0952e93720fa50d3129116af0fba82172e))
+
+
+
+
+
 # [0.40.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.39.0...@kenjiwb/uikit@0.40.0) (2021-06-22)
 
 
