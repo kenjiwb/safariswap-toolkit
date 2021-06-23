@@ -7,7 +7,6 @@ const Icon: React.FC<SvgProps> = (props) => {
     <Svg viewBox="0 0 300 300" {...props}>
       <defs>
         <style>{`.cls-1{fill:#fff;}.cls-2{fill:url(#linear-gradient);}.cls-3{fill:url(#linear-gradient-2);}.cls-4{fill:url(#linear-gradient-3);}.cls-5{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:10px;stroke:url(#linear-gradient-4);}`}</style>
-
         <linearGradient
           id="linear-gradient"
           x1="95.81"
@@ -16,13 +15,13 @@ const Icon: React.FC<SvgProps> = (props) => {
           y2="118.7"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="#ffeb3d" />
-          <stop offset="0.11" stop-color="#f9e63d" />
-          <stop offset="0.26" stop-color="#e8d73d" />
-          <stop offset="0.43" stop-color="#cbbf3c" />
-          <stop offset="0.62" stop-color="#a39d3c" />
-          <stop offset="0.82" stop-color="#71723b" />
-          <stop offset="1" stop-color="#3e473a" />
+          <stop offset="0" stopColor="#ffeb3d" />
+          <stop offset="0.11" stopColor="#f9e63d" />
+          <stop offset="0.26" stopColor="#e8d73d" />
+          <stop offset="0.43" stopColor="#cbbf3c" />
+          <stop offset="0.62" stopColor="#a39d3c" />
+          <stop offset="0.82" stopColor="#71723b" />
+          <stop offset="1" stopColor="#3e473a" />
         </linearGradient>
         <linearGradient
           id="linear-gradient-2"
@@ -41,17 +40,15 @@ const Icon: React.FC<SvgProps> = (props) => {
           xlinkHref="#linear-gradient"
         />
         <linearGradient id="linear-gradient-4" x1="10" y1="150" x2="290" y2="150" gradientUnits="userSpaceOnUse">
-          <stop offset="0" stop-color="#3e473a" />
-          <stop offset="0.18" stop-color="#71723b" />
-          <stop offset="0.38" stop-color="#a39d3c" />
-          <stop offset="0.57" stop-color="#cbbf3c" />
-          <stop offset="0.74" stop-color="#e8d73d" />
-          <stop offset="0.89" stop-color="#f9e63d" />
-          <stop offset="1" stop-color="#ffeb3d" />
+          <stop offset="0" stopColor="#3e473a" />
+          <stop offset="0.18" stopColor="#71723b" />
+          <stop offset="0.38" stopColor="#a39d3c" />
+          <stop offset="0.57" stopColor="#cbbf3c" />
+          <stop offset="0.74" stopColor="#e8d73d" />
+          <stop offset="0.89" stopColor="#f9e63d" />
+          <stop offset="1" stopColor="#ffeb3d" />
         </linearGradient>
       </defs>
-
-      <circle className="cls-5" cx="150" cy="150" r="135" />
       <circle className="cls-1" cx="150" cy="150" r="150" />
       <path
         className="cls-2"
@@ -65,6 +62,7 @@ const Icon: React.FC<SvgProps> = (props) => {
         className="cls-4"
         d="M182.57,100.21a3.88,3.88,0,0,0-1.23,5.34c.12.2,12.34,20,10.09,37.68a3.87,3.87,0,0,0,3.35,4.33,4.19,4.19,0,0,0,.5,0,3.87,3.87,0,0,0,3.83-3.38c2.6-20.38-10.64-41.86-11.2-42.76A3.87,3.87,0,0,0,182.57,100.21Z"
       />
+      <circle className="cls-5" cx="150" cy="150" r="135" />
     </Svg>
   );
 };
