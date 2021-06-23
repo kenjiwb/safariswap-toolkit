@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.40.2](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.40.1...@kenjiwb/uikit@0.40.2) (2021-06-23)
+
+
+### Bug Fixes
+
+* **icon:** Update Top Navigation and Farm [#5](https://github.com/kenjiwb/safariswap-toolkit/issues/5) ([e12007e](https://github.com/kenjiwb/safariswap-toolkit/commit/e12007ec22294d4ae3e7622cee0d5df96473a710))
+
+
+
+
+
 ## [0.40.1](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.40.0...@kenjiwb/uikit@0.40.1) (2021-06-23)
 
 
