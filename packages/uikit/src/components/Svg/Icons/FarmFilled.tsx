@@ -6,7 +6,9 @@ const Icon: React.FC<SvgProps> = (props) => {
   return (
     <Svg viewBox="0 0 300 300" {...props}>
       <defs>
-        <style>{`.cls-1{fill:#fff;}.cls-2{fill:url(#linear-gradient);}.cls-3{fill:url(#linear-gradient-2);}.cls-4{fill:url(#linear-gradient-3);}.cls-5{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:10px;stroke:url(#linear-gradient-4);}`}</style>
+        <style>
+          {`.farm-1{fill:#fff;}.cls-2{fill:url(#linear-gradient);}.cls-3{fill:url(#linear-gradient-2);}.cls-4{fill:url(#linear-gradient-3);}.cls-5{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:10px;stroke:url(#linear-gradient-4);}`}
+        </style>
         <linearGradient
           id="linear-gradient"
           x1="95.81"
@@ -49,7 +51,7 @@ const Icon: React.FC<SvgProps> = (props) => {
           <stop offset="1" stopColor="#ffeb3d" />
         </linearGradient>
       </defs>
-      <circle className="cls-1" cx="150" cy="150" r="150" />
+      <circle className="farm-1" cx="150" cy="150" r="150" />
       <path
         className="cls-2"
         d="M103.26,147.59a3.92,3.92,0,0,0,1.26-.21,3.87,3.87,0,0,0,2.41-4.92c-8.65-25.19,2.28-46.77,2.4-47a3.88,3.88,0,0,0-6.87-3.59c-.52,1-12.62,24.65-2.86,53.08A3.88,3.88,0,0,0,103.26,147.59Z"
