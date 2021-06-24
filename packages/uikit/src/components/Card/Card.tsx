@@ -7,18 +7,26 @@ import mediumImage from "./Images/medium.png";
 import rareImage from "./Images/rare.png";
 import buyImage from "./Images/buy.png";
 
-const cardImage = {
-  'common': commonImage,
-  'medium': mediumImage,
-  'rare': rareImage
+interface Obj {
+  common: string;
+  medium: string;
+  rare: string;
+  [key: string]: string;
+}
+
+const cardImage: Obj = {
+  common: commonImage,
+  medium: mediumImage,
+  rare: rareImage
 };
 
 const Card: React.FC<CardProps> = ({ children, variant = 'common', ...props }) => {
+  const imgSrc: string = cardImage[variant];
   return (
     <StyledCard {...props}>
       <Flex justifyContent='space-between'>
         <Box p="10px 0 0 0">
-          <img src={cardImage[variant]} width="140px" height="140px" />
+          <img src={imgSrc} width="140px" height="140px" />
         </Box>
         <Box>
           {children}
