@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.41.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.40.2...@kenjiwb/uikit@0.41.0) (2021-06-26)
+
+
+### Bug Fixes
+
+* **logo:** Update safari logo icon ([a42e074](https://github.com/kenjiwb/safariswap-toolkit/commit/a42e07408422b6ffb54d33395213f6c86db7d042))
+
+
+### Features
+
+* **lang:** Update translation Icon ([4816e85](https://github.com/kenjiwb/safariswap-toolkit/commit/4816e85623c5a0f69f7b58ca2619c1042ac73576))
+
+
+
+
+
 ## [0.40.2](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.40.1...@kenjiwb/uikit@0.40.2) (2021-06-23)
 
 
