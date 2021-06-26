@@ -1,5 +1,5 @@
 import React from "react";
-import { SvgProps } from "../../../components/Svg";
+import { SvgProps, TranslationOutlineIcon } from "../../../components/Svg";
 import Text from "../../../components/Text/Text";
 import Dropdown from "../../../components/Dropdown/Dropdown";
 import { Position } from "../../../components/Dropdown/types";
@@ -23,7 +23,7 @@ const LangSelector: React.FC<Props> = ({ currentLang, langs, setLang, position }
   <Dropdown
     position={position}
     target={
-      <Button variant="text" startIcon={<LanguageIcon color="textSubtle" width="24px" />}>
+      <Button variant="text" startIcon={<TranslationOutlineIcon color="textSubtle" width="24px" />}>
         <Text color="textSubtle">{currentLang?.toUpperCase()}</Text>
       </Button>
     }

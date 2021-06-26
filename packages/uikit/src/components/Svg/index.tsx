@@ -93,5 +93,6 @@ export { default as ClaimPrizeOutlineIcon } from "./Icons/ClaimPrizeOutline";
 export { default as ClaimPrizeFilledIcon } from "./Icons/ClaimPrizeFilled";
 export { default as BeginnerGuideOutlineIcon } from "./Icons/BeginnerGuideOutline";
 export { default as BeginnerGuideFilledIcon } from "./Icons/BeginnerGuideFilled";
+export { default as TranslationOutlineIcon } from "./Icons/Translation";
 export { default as Svg } from "./Svg";
 export type { SvgProps } from "./types";
