@@ -1,16 +1,19 @@
 import React from "react";
-import { SvgProps, TranslationOutlineIcon } from "../../../components/Svg";
+import {
+  // SvgProps,
+  TranslationOutlineIcon,
+} from "../../../components/Svg";
 import Text from "../../../components/Text/Text";
 import Dropdown from "../../../components/Dropdown/Dropdown";
 import { Position } from "../../../components/Dropdown/types";
 
 import Button from "../../../components/Button/Button";
-import * as IconModule from "../icons";
+// import * as IconModule from "../icons";
 import { Language } from "../types";
 import MenuButton from "./MenuButton";
 
-const Icons = IconModule as unknown as { [key: string]: React.FC<SvgProps> };
-const { LanguageIcon } = Icons;
+// const Icons = IconModule as unknown as { [key: string]: React.FC<SvgProps> };
+// const { LanguageIcon } = Icons;
 
 interface Props {
   currentLang: string;

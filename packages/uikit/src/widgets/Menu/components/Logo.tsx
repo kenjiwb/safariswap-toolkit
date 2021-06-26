@@ -51,7 +51,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
   const isAbsoluteUrl = href.startsWith("http");
   const innerLogo = (
     <>
-      <LogoIcon width="115" isDark={isDark} />
+      <LogoIcon width="50" isDark={isDark} />
     </>
   );
 
