@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.42.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.41.0...@kenjiwb/uikit@0.42.0) (2021-06-29)
+
+
+### Bug Fixes
+
+* **formatter:** Fix formatter ([1c44edb](https://github.com/kenjiwb/safariswap-toolkit/commit/1c44edb10d128b1a431eacbc2af4309f034b60ba))
+
+
+### Features
+
+* **lootbox:** Add card ([f481beb](https://github.com/kenjiwb/safariswap-toolkit/commit/f481beb0c56f8bbf9320973b68717ce06f2dc098))
+
+
+
+
+
 # [0.41.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.40.2...@kenjiwb/uikit@0.41.0) (2021-06-26)
 
 
