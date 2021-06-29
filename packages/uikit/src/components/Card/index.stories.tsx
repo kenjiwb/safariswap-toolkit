@@ -23,47 +23,47 @@ export const Default: React.FC = () => {
       <Row>
         <Card variant="common">
           <CardBody>
-            <Box 
-              style={{ 
+            <Box
+              style={{
                 color: "#FDF104",
                 fontSize: "28px",
                 fontWeight: "600",
-                textShadow: "1px 2px #464C48"
+                textShadow: "1px 2px #464C48",
               }}
             >
               COMMON
             </Box>
-            <Box 
-              style={{ 
+            <Box
+              style={{
                 color: "#E8E8E4",
                 fontSize: "24px",
                 fontWeight: "400",
-                textShadow: "1px 1px #464C48"
+                textShadow: "1px 1px #464C48",
               }}
             >
               Lootbox
             </Box>
           </CardBody>
           <CardFooter>
-            <Box 
-              style={{ 
+            <Box
+              style={{
                 color: "#E8E8E4",
                 fontSize: "20px",
                 fontWeight: "400",
-                textShadow: "1px 1px #464C48"
+                textShadow: "1px 1px #464C48",
               }}
             >
               3 Common NFTs
             </Box>
-            <Flex 
-              style={{ 
+            <Flex
+              style={{
                 color: "#E8E8E4",
                 fontSize: "20px",
                 fontWeight: "400",
-                textShadow: "1px 1px #464C48"
+                textShadow: "1px 1px #464C48",
               }}
             >
-              Price: 
+              Price:
               <Flex style={{ fontSize: "24px", fontWeight: "700", marginLeft: "10px" }}>50</Flex>
             </Flex>
           </CardFooter>
@@ -72,47 +72,47 @@ export const Default: React.FC = () => {
       <Row>
         <Card variant="medium">
           <CardBody>
-            <Box 
-              style={{ 
+            <Box
+              style={{
                 color: "#FDF104",
                 fontSize: "28px",
                 fontWeight: "600",
-                textShadow: "1px 2px #464C48"
+                textShadow: "1px 2px #464C48",
               }}
             >
               MEDIUM
             </Box>
-            <Box 
-              style={{ 
+            <Box
+              style={{
                 color: "#E8E8E4",
                 fontSize: "24px",
                 fontWeight: "400",
-                textShadow: "1px 1px #464C48"
+                textShadow: "1px 1px #464C48",
               }}
             >
               Lootbox
             </Box>
           </CardBody>
           <CardFooter>
-            <Box 
-              style={{ 
+            <Box
+              style={{
                 color: "#E8E8E4",
                 fontSize: "20px",
                 fontWeight: "400",
-                textShadow: "1px 1px #464C48"
+                textShadow: "1px 1px #464C48",
               }}
             >
               3 Common NFTs
             </Box>
-            <Flex 
-              style={{ 
+            <Flex
+              style={{
                 color: "#E8E8E4",
                 fontSize: "20px",
                 fontWeight: "400",
-                textShadow: "1px 1px #464C48"
+                textShadow: "1px 1px #464C48",
               }}
             >
-              Price: 
+              Price:
               <Flex style={{ fontSize: "24px", fontWeight: "700", marginLeft: "10px" }}>50</Flex>
             </Flex>
           </CardFooter>
@@ -121,47 +121,47 @@ export const Default: React.FC = () => {
       <Row>
         <Card variant="rare">
           <CardBody>
-            <Box 
-              style={{ 
+            <Box
+              style={{
                 color: "#FDF104",
                 fontSize: "28px",
                 fontWeight: "600",
-                textShadow: "1px 2px #464C48"
+                textShadow: "1px 2px #464C48",
               }}
             >
               RARE
             </Box>
-            <Box 
-              style={{ 
+            <Box
+              style={{
                 color: "#E8E8E4",
                 fontSize: "24px",
                 fontWeight: "400",
-                textShadow: "1px 1px #464C48"
+                textShadow: "1px 1px #464C48",
               }}
             >
               Lootbox
             </Box>
           </CardBody>
           <CardFooter>
-            <Box 
-              style={{ 
+            <Box
+              style={{
                 color: "#E8E8E4",
                 fontSize: "20px",
                 fontWeight: "400",
-                textShadow: "1px 1px #464C48"
+                textShadow: "1px 1px #464C48",
               }}
             >
               3 Common NFTs
             </Box>
-            <Flex 
-              style={{ 
+            <Flex
+              style={{
                 color: "#E8E8E4",
                 fontSize: "20px",
                 fontWeight: "400",
-                textShadow: "1px 1px #464C48"
+                textShadow: "1px 1px #464C48",
               }}
             >
-              Price: 
+              Price:
               <Flex style={{ fontSize: "24px", fontWeight: "700", marginLeft: "10px" }}>50</Flex>
             </Flex>
           </CardFooter>

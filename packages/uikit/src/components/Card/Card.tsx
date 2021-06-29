@@ -17,20 +17,18 @@ interface Obj {
 const cardImage: Obj = {
   common: commonImage,
   medium: mediumImage,
-  rare: rareImage
+  rare: rareImage,
 };
 
-const Card: React.FC<CardProps> = ({ children, variant = 'common', ...props }) => {
+const Card: React.FC<CardProps> = ({ children, variant = "common", ...props }) => {
   const imgSrc: string = cardImage[variant];
   return (
     <StyledCard {...props}>
-      <Flex justifyContent='space-between'>
+      <Flex justifyContent="space-between">
         <Box p="10px 0 0 0">
           <img src={imgSrc} alt="variant icon" width="140px" height="140px" />
         </Box>
-        <Box>
-          {children}
-        </Box>
+        <Box>{children}</Box>
         <Box p="10px 0 0 0">
           <img src={buyImage} width="140px" alt="buy button" height="140px" />
         </Box>
