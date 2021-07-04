@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.42.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.41.0...@kenjiwb/uikit@0.42.0) (2021-07-04)
+
+
+### Features
+
+* **colors:** Add safari green colors ([ef85c5c](https://github.com/kenjiwb/safariswap-toolkit/commit/ef85c5cf24e9ca9f14717a753b03d1cb3486449e))
+
+
+
+
+
 # [0.41.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.40.2...@kenjiwb/uikit@0.41.0) (2021-06-26)
 
 
