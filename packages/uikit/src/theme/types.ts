@@ -35,6 +35,7 @@ export type Gradients = {
   violet: string;
   violetAlt: string;
   gold: string;
+  safari: string;
 };
 
 export type Colors = {
@@ -67,6 +68,9 @@ export type Colors = {
   // Additional colors
   binance: string;
   overlay: string;
+  safariGreen: string;
+  safariGreen2: string;
+  safariText3: string;
 };
 
 export type ZIndices = {

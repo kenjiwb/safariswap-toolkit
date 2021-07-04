@@ -12,6 +12,9 @@ export const baseColors = {
 
 export const additionalColors = {
   binance: "#F0B90B",
+  safariGreen: "#6A7443",
+  safariGreen2: "#CBD479",
+  safariText3: "#D0D64C",
   overlay: "#7183533d",
 };
 
@@ -41,6 +44,7 @@ export const lightColors: Colors = {
     violet: "linear-gradient(180deg, #E2C9FB 0%, #CDB8FA 100%)",
     violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
     gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
+    safari: "linear-gradient(90deg, rgba(120,135,92,1) 30%, rgba(72,77,74,1) 100%)",
   },
 };
 
@@ -72,5 +76,6 @@ export const darkColors: Colors = {
     violet: "linear-gradient(180deg, #6C4999 0%, #6D4DB2 100%)",
     violetAlt: "linear-gradient(180deg, #434575 0%, #66578D 100%)",
     gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
+    safari: "linear-gradient(90deg, rgba(120,135,92,1) 30%, rgba(72,77,74,1) 100%)",
   },
 };
