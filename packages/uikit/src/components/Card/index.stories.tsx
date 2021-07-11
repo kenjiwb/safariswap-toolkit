@@ -7,7 +7,9 @@ import CardRibbon from "./CardRibbon";
 import UIKitCardHeader from "./CardHeader";
 import CardBody from "./CardBody";
 import CardFooter from "./CardFooter";
+import CardLootbox from "./CardLootbox";
 import Card from "./Card";
+import { Box, Flex } from "../Box";
 
 const Row = styled.div`
   margin-bottom: 32px;
@@ -98,6 +100,7 @@ export const CardHeader: React.FC = () => {
     </div>
   );
 };
+
 export const Ribbon: React.FC = () => {
   return (
     <div style={{ padding: "32px", width: "500px" }}>
@@ -126,6 +129,62 @@ export const Ribbon: React.FC = () => {
         <Card ribbon={<CardRibbon variantColor="failure" text="Failure" ribbonPosition="left" />}>
           <CardBody style={{ height: "150px" }}>Any Color in the theme</CardBody>
         </Card>
+      </Row>
+    </div>
+  );
+};
+
+export const Lootbox: React.FC = () => {
+  return (
+    <div style={{ padding: "32px", width: "500px" }}>
+      <Row>
+        <CardLootbox variant="common">
+          <CardBody>
+            <Box 
+              style={{ 
+                color: "#FDF104",
+                fontSize: "28px",
+                fontWeight: "600",
+                textShadow: "1px 2px #464C48"
+              }}
+            >
+              COMMON
+            </Box>
+            <Box 
+              style={{ 
+                color: "#E8E8E4",
+                fontSize: "24px",
+                fontWeight: "400",
+                textShadow: "1px 1px #464C48"
+              }}
+            >
+              Lootbox
+            </Box>
+          </CardBody>
+          <CardFooter>
+            <Box 
+              style={{ 
+                color: "#E8E8E4",
+                fontSize: "18px",
+                fontWeight: "400",
+                textShadow: "1px 1px #464C48"
+              }}
+            >
+              3 Common NFTs
+            </Box>
+            <Flex 
+              style={{ 
+                color: "#E8E8E4",
+                fontSize: "20px",
+                fontWeight: "400",
+                textShadow: "1px 1px #464C48"
+              }}
+            >
+              Price: 
+              <Flex style={{ fontSize: "24px", fontWeight: "700", marginLeft: "10px" }}>50</Flex>
+            </Flex>
+          </CardFooter>
+        </CardLootbox>
       </Row>
     </div>
   );
