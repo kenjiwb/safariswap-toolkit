@@ -30,3 +30,9 @@ export interface CardProps extends SpaceProps, HTMLAttributes<HTMLDivElement> {
   isDisabled?: boolean;
   ribbon?: React.ReactNode;
 }
+
+export interface CardLootboxProps extends SpaceProps, HTMLAttributes<HTMLDivElement> {
+  variant?: string;
+  totalNFT?: number;
+  price?: number;
+}

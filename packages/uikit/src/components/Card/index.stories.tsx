@@ -7,6 +7,7 @@ import CardRibbon from "./CardRibbon";
 import UIKitCardHeader from "./CardHeader";
 import CardBody from "./CardBody";
 import CardFooter from "./CardFooter";
+import CardLootbox from "./CardLootbox";
 import Card from "./Card";
 
 const Row = styled.div`
@@ -98,6 +99,7 @@ export const CardHeader: React.FC = () => {
     </div>
   );
 };
+
 export const Ribbon: React.FC = () => {
   return (
     <div style={{ padding: "32px", width: "500px" }}>
@@ -126,6 +128,22 @@ export const Ribbon: React.FC = () => {
         <Card ribbon={<CardRibbon variantColor="failure" text="Failure" ribbonPosition="left" />}>
           <CardBody style={{ height: "150px" }}>Any Color in the theme</CardBody>
         </Card>
+      </Row>
+    </div>
+  );
+};
+
+export const Lootbox: React.FC = () => {
+  return (
+    <div style={{ padding: "32px", width: "500px" }}>
+      <Row>
+        <CardLootbox variant="common" totalNFT={3} price={50} />
+      </Row>
+      <Row>
+        <CardLootbox variant="medium" totalNFT={4} price={60} />
+      </Row>
+      <Row>
+        <CardLootbox variant="rare" totalNFT={2} price={100} />
       </Row>
     </div>
   );
