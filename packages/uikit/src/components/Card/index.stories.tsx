@@ -137,13 +137,13 @@ export const Lootbox: React.FC = () => {
   return (
     <div style={{ padding: "32px", width: "500px" }}>
       <Row>
-        <CardLootbox variant="common" totalNFT={3} price={50} />
+        <CardLootbox variant="common" totalNFT={3} price={50} onBuy={() => alert("buy common")} />
       </Row>
       <Row>
-        <CardLootbox variant="medium" totalNFT={4} price={60} />
+        <CardLootbox variant="medium" totalNFT={4} price={60} onBuy={() => alert("buy medium")} />
       </Row>
       <Row>
-        <CardLootbox variant="rare" totalNFT={2} price={100} />
+        <CardLootbox variant="rare" totalNFT={2} price={100} onBuy={() => alert("buy rare")} />
       </Row>
     </div>
   );
