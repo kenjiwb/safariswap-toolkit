@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.45.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.44.0...@kenjiwb/uikit@0.45.0) (2021-07-13)
+
+
+### Features
+
+* **lootbox:** Add buy button functionality ([dca8b45](https://github.com/kenjiwb/safariswap-toolkit/commit/dca8b450765bb829044faecc3e9a31277881309b))
+
+
+
+
+
 # [0.44.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.43.0...@kenjiwb/uikit@0.44.0) (2021-07-11)
 
 
