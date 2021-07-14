@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.46.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.45.0...@kenjiwb/uikit@0.46.0) (2021-07-14)
+
+
+### Features
+
+* **fix-eslint:** Fix eslint ([37ca883](https://github.com/kenjiwb/safariswap-toolkit/commit/37ca88398da4763238678e9dcc06014f716ec13d))
+* **lang-selector:** Langselector component ([3bfea66](https://github.com/kenjiwb/safariswap-toolkit/commit/3bfea6694ef3c48538bdf21a17abea091eac5bfa))
+
+
+
+
+
 # [0.45.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.44.0...@kenjiwb/uikit@0.45.0) (2021-07-13)
 
 
