@@ -35,5 +35,5 @@ export interface CardLootboxProps extends SpaceProps, HTMLAttributes<HTMLDivElem
   variant?: string;
   totalNFT?: number;
   price?: number;
-  onBuy?: any;
+  onBuy?: () => void;
 }
