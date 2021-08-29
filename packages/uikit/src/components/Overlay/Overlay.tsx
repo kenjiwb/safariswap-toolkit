@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { OverlayProps } from "./types";
 
 const Overlay = styled.div.attrs({ role: "presentation" })<OverlayProps>`
+  backdrop-filter: blur(2px);
   position: fixed;
   top: 0px;
   left: 0px;
