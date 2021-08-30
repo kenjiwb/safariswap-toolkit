@@ -98,7 +98,7 @@ max-width: 24rem;
 const NetworkModal: React.FC<Props> = ({ login, onDismiss = () => null }) => (
   <Modal title="Choose a Network" onDismiss={onDismiss}>
     <p>Select a network to switch to in MetaMask.</p>
-    {config.slice(0, 5).map((entry, index) => (
+    {config.map((entry, index) => (
       <WalletCard
         key={entry.title}
         login={login}
@@ -109,10 +109,6 @@ const NetworkModal: React.FC<Props> = ({ login, onDismiss = () => null }) => (
       />
     ))}
     <p>Currently connected to: <b>Bsc-testnet</b></p>
-    {/* <HelpLink href="https://docs.pancakeswap.finance/get-started/connection-guide" external>
-      <HelpIcon color="primary" mr="6px" />
-      Learn how to connect
-    </HelpLink> */}
   </Modal>
 );
 
