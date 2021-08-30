@@ -2,17 +2,17 @@ import { darkColors, lightColors } from "../../theme/colors";
 import { NavTheme } from "./types";
 
 export const lightTop: NavTheme = {
-  background: lightColors.backgroundAlt,
+  background: lightColors.topNav,
 };
 
 export const lightSide: NavTheme = {
-  background: lightColors.background,
+  background: lightColors.sideNav,
 };
 
 export const darkTop: NavTheme = {
-  background: darkColors.backgroundAlt,
+  background: darkColors.topNav,
 };
 
 export const darkSide: NavTheme = {
-  background: darkColors.background,
+  background: darkColors.sideNav,
 };
