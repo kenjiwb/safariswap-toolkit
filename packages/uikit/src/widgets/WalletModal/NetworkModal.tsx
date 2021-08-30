@@ -51,6 +51,7 @@ max-width: 24rem;
       color: #cdc5df;
       margin-bottom: 1rem;
       line-height: 1.5;
+      font-weight: 300;
     }
 
     p:last-child {
