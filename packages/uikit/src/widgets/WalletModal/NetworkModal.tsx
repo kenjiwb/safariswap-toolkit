@@ -92,8 +92,8 @@ max-width: 24rem;
     button {
       padding-top: .5rem;
       padding-bottom: .5rem;
-      background-color: #290b5a;
-      border-color: #290b5a;
+      background-color: rgba(248, 209, 47, 1);
+      border-color: rgba(248, 209, 47, 1);
       border-width: 1px;
       border-style: solid;
 
@@ -108,7 +108,7 @@ max-width: 24rem;
         font-weight: 400 ;
       }
       &:hover {
-        border-color: #4c249f;
+        border-color: rgba(248, 209, 47, 1);
         opacity: 1 !important;
       }
       &:focus {
