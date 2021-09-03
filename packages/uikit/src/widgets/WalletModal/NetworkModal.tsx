@@ -17,17 +17,17 @@ background-image: linear-gradient(
   to right,
   #1fc7d4,
   rgba(248, 209, 47, 1)
-) !important;
-border: none !important;
-padding: 2px !important;
-border-radius: 0.625rem !important;
+);
+border: none;
+padding: 2px;
+border-radius: 0.625rem;
 
 border-radius: .75rem;
 max-width: 24rem;
   > :first-child {
-    border-top-left-radius: 0.625rem !important;
-    border-top-right-radius: 0.625rem !important;
-    background-color: rgba(22, 21, 34, 1) !important;
+    border-top-left-radius: 0.625rem;
+    border-top-right-radius: 0.625rem;
+    background-color: rgba(22, 21, 34, 1);
     padding-top: 32px;
     padding-left: 32px;
     padding-right: 32px;
@@ -52,9 +52,9 @@ max-width: 24rem;
   }
 
   > :nth-child(2) {
-    border-bottom-left-radius: 0.625rem !important;
-    border-bottom-left-radius: 0.625rem !important;
-    background-color :rgba(22,21,34,1) !important;
+    border-bottom-left-radius: 0.625rem;
+    border-bottom-left-radius: 0.625rem;
+    background-color :rgba(22,21,34,1);
     padding-top: 0px;
     padding-left: 32px;
     padding-right: 32px;
@@ -80,7 +80,7 @@ max-width: 24rem;
           to right,
           #1fc7d4,
           rgba(248, 209, 47, 1)
-        ) !important;
+        );
         background-size: 100%;
         -webkit-background-clip: text;
         -moz-background-clip: text;
