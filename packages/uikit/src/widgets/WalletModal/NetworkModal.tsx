@@ -104,7 +104,7 @@ max-width: 24rem;
       transition: all .2s ease-out;
     
       div {
-        color: #ffffff;
+        color: #00000099;
         font-weight: 400 ;
       }
       &:hover {
