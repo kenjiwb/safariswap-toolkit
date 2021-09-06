@@ -12,7 +12,7 @@ interface Props extends PanelProps, PushedProps {}
 const Container = styled.div`
   flex: none;
   padding: 8px 4px;
-  background-color: ${({ theme }) => theme.sideNav.background};
+  background-color: transparent;
   border-bottom: solid 2px rgba(133, 133, 133, 0.1);
 `;
 
