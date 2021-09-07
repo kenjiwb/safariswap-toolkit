@@ -1,9 +1,9 @@
 import React from "react";
+import styled from 'styled-components'
 import CustomButton  from "../../components/Button/Button";
 import Text from "../../components/Text/Text";
 import { connectorLocalStorageKey } from "./config";
 import { Login, Config } from "./types";
-import styled from 'styled-components'
 
 interface Props {
   walletConfig: Config;

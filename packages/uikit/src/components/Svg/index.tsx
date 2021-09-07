@@ -28,6 +28,7 @@ export { default as CogIcon } from "./Icons/Cog";
 export { default as CommunityIcon } from "./Icons/Community";
 export { default as CopyIcon } from "./Icons/Copy";
 export { default as CrownIcon } from "./Icons/Crown";
+export { default as ElephantIcon } from "./Icons/Elephant";
 export { default as ErrorIcon } from "./Icons/Error";
 export { default as HelpIcon } from "./Icons/Help";
 export { default as HarvestIcon } from "./Icons/Harvest";
