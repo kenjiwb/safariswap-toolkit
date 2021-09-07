@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { HelpIcon } from "../../components/Svg";
 import { Modal as DefaultModal } from "../Modal";
 import WalletCard from "./WalletCard";
 import config from "./config";
@@ -12,10 +11,22 @@ interface Props {
 }
 
 const Modal = styled(DefaultModal)`
-background-color :#341762;
+
+background-image: linear-gradient(
+  to right,
+  #1fc7d4,
+  rgba(248, 209, 47, 1)
+);
+border: none;
+padding: 2px;
+border-radius: 0.625rem;
+
 border-radius: .75rem;
 max-width: 24rem;
   > :first-child {
+    border-top-left-radius: 0.625rem;
+    border-top-right-radius: 0.625rem;
+    background-color: rgba(22, 21, 34, 1);
     padding-top: 32px;
     padding-left: 32px;
     padding-right: 32px;
@@ -40,6 +51,9 @@ max-width: 24rem;
   }
 
   > :nth-child(2) {
+    border-bottom-left-radius: 0.625rem;
+    border-bottom-left-radius: 0.625rem;
+    background-color :rgba(22,21,34,1);
     padding-top: 0px;
     padding-left: 32px;
     padding-right: 32px;
@@ -60,14 +74,25 @@ max-width: 24rem;
       b {
         color: #e61b1b;
         margin-left:4px;
+        background-color: #f3ec78;
+        background-image: linear-gradient(
+          to right,
+          #1fc7d4,
+          rgba(248, 209, 47, 1)
+        );
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-text-fill-color: transparent;
       }
     }
 
     button {
       padding-top: .5rem;
       padding-bottom: .5rem;
-      background-color: #290b5a;
-      border-color: #290b5a;
+      background-color: rgba(248, 209, 47, 1);
+      border-color: rgba(248, 209, 47, 1);
       border-width: 1px;
       border-style: solid;
 
@@ -78,11 +103,11 @@ max-width: 24rem;
       transition: all .2s ease-out;
     
       div {
-        color: #ffffff;
+        color: #00000099;
         font-weight: 400 ;
       }
       &:hover {
-        border-color: #4c249f;
+        border-color: rgba(248, 209, 47, 1);
         opacity: 1 !important;
       }
       &:focus {
