@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { HelpIcon } from "../../components/Svg";
 import { Modal as DefaultModal } from "../Modal";
 import WalletCard from "./WalletCard";
 import config from "./config";

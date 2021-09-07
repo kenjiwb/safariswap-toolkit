@@ -14,7 +14,6 @@ export { default as MoonIcon } from "./Moon";
 export { default as LootboxIcon } from "./Lootbox";
 export { default as MoreIcon } from "./More";
 export { default as NftIcon } from "./Nft";
-export { default as PoolIcon } from "./Pool";
 export { default as PredictionsIcon } from "./Predictions";
 
 export { default as NFTMarketIcon } from "./NFTMarket";
