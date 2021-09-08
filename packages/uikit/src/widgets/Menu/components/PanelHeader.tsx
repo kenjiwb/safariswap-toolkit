@@ -20,8 +20,12 @@ const SettingsEntry = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: ${MENU_ENTRY_HEIGHT}px;
-  padding: 0 8px;
+  padding: 0px 8px 0px;
+`;
+
+const SettingsBalanceEntry = styled.div`
+  display: flex;
+  padding: 0px 8px 8px;
 `;
 
 const PanelHeader: React.FC<Props> = ({ isPushed, pushNav, cakePriceUsd, currentLang, langs, setLang }) => {
@@ -35,12 +39,22 @@ const PanelHeader: React.FC<Props> = ({ isPushed, pushNav, cakePriceUsd, current
     );
   }
 
+
+
+const BalanceText = styled.div`
+color: #ffffff;
+padding-left: 32px;
+`;
+
   return (
     <Container>
       <SettingsEntry>
         <CakePrice cakePriceUsd={cakePriceUsd} />
         <LangSelector position="bottom" currentLang={currentLang} langs={langs} setLang={setLang} />
       </SettingsEntry>
+      <SettingsBalanceEntry>
+      <BalanceText>Balance</BalanceText>
+      </SettingsBalanceEntry>
     </Container>
   );
 };
