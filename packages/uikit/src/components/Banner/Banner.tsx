@@ -137,10 +137,11 @@ font-size: 48px;
 white-space: nowrap;
 text-align: center;
 line-height: 110%;
-color: rgb(255, 255, 255);
+color: rgb(255, 255, 255) !important;
 text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
-background: linear-gradient(rgb(118, 69, 217) 0%, rgb(69, 42, 122) 100%) text;
+background: -webkit-linear-gradient(rgb(118, 69, 217) 0%, rgb(69, 42, 122) 100%);
 -webkit-text-stroke: 4px transparent;
+-webkit-background-clip: text;
 `
 
 const Prizes = styled.h2`
