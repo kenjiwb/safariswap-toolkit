@@ -76,13 +76,9 @@ const RightSideContainer = styled.div`
 
 width: fit-content;
 height: fit-content;
-background: linear-gradient(rgb(118, 69, 217) 0%, rgb(69, 42, 122) 100%);
-    background-image: linear-gradient(rgb(118, 69, 217) 0%, rgb(69, 42, 122) 100%);
-border: 1px solid rgb(118, 69, 217);
 box-sizing: border-box;
-border-radius: 0px 0px 24px 24px;
 padding: 16px 18px;
-margin: -30px auto 50px;
+margin: -30px auto 30px;
 justify-content: space-around;
 display: flex;
 }
@@ -190,13 +186,13 @@ font-weight: 600;
 const Image = styled.img`
 @media screen and (min-width: 576px)
  {
-    height: 64px;
-    width: 64px;
+    height: 280px;
+    width: 280px;
 }
 margin-left: auto;
 margin-right: auto;
-height: 48px;
-width: 48px;
+height: 280px;
+width: 280px;
 align-self: center;
 fill: rgb(40, 13, 95);
 flex-shrink: 0;
@@ -216,7 +212,7 @@ const Banner: React.FC<BannerProps> = ({ date,title,prizes,description,image  })
     <LeftSideContainer>
       <Date>{date}</Date>
       <Title>{title}</Title>
-      <Prizes>$Nutuuve in Prizes! </Prizes>
+      <Prizes>$Nature in Prizes! </Prizes>
       <Description>{description}</Description>
     </LeftSideContainer>
   </ContainerNested>
