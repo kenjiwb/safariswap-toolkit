@@ -1,42 +1,6 @@
 import React from "react";
-import styled, { DefaultTheme } from "styled-components";
-import { Text } from "../Text";
-import { IconButton } from "../Button";
+import styled from "styled-components";
 import { BannerProps } from "./types";
-
-// interface ThemedIconLabel {
-//   variant: AlertProps["variant"];
-//   theme: DefaultTheme;
-//   hasDescription: boolean;
-// }
-
-// const getThemeColor = ({ theme, variant = variants.INFO }: ThemedIconLabel) => {
-//   switch (variant) {
-//     case variants.DANGER:
-//       return theme.colors.failure;
-//     case variants.WARNING:
-//       return theme.colors.warning;
-//     case variants.SUCCESS:
-//       return theme.colors.success;
-//     case variants.INFO:
-//     default:
-//       return theme.colors.secondary;
-//   }
-// };
-
-// const getIcon = (variant: AlertProps["variant"] = variants.INFO) => {
-//   switch (variant) {
-//     case variants.DANGER:
-//       return BlockIcon;
-//     case variants.WARNING:
-//       return ErrorIcon;
-//     case variants.SUCCESS:
-//       return CheckmarkCircleIcon;
-//     case variants.INFO:
-//     default:
-//       return InfoIcon;
-//   }
-// };
 
 const BannerWrapper = styled.div`
 @media screen and (min-width: 968px)
@@ -141,27 +105,6 @@ webkit-box-align: center;
 const LeftSideContainer = styled.div`
 display: flex;
 flex-direction: column;
-`
-
-const  A = styled.div`
-display: none;
-width: 75%;
-margin: 0px auto;
-`
-
-const B = styled.div`
-max-height: 659px;
-    max-width: 1208px;
-    position: relative;
-    width: 100%;
-`
-
-const C = styled.div`
-height: 100%;
-left: 0px;
-position: absolute;
-top: 0px;
-width: 100%;
 `
 
 const Date = styled.div`
