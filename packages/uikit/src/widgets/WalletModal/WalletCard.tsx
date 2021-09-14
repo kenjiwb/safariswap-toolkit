@@ -1,6 +1,6 @@
 import React from "react";
-import styled from 'styled-components'
-import CustomButton  from "../../components/Button/Button";
+import styled from "styled-components";
+import CustomButton from "../../components/Button/Button";
 import Text from "../../components/Text/Text";
 import { connectorLocalStorageKey } from "./config";
 import { Login, Config } from "./types";
@@ -14,17 +14,18 @@ interface Props {
 }
 
 interface CustomButtonProps {
-  isSelected?: boolean
+  isSelected?: boolean;
 }
 const Button = styled(CustomButton)<CustomButtonProps>`
-background: ${props => props?.isSelected && "linear-gradient(334deg,#4c249f 28%,rgba(255,119,225,.9) 164%),#290b5a"};
-`
+  background: ${(props) =>
+    props?.isSelected && "linear-gradient(334deg,#4c249f 28%,rgba(255,119,225,.9) 164%),#290b5a"};
+`;
 
-const WalletCard: React.FC<Props> = ({ login, walletConfig, onDismiss, mb,isSelected }) => {
+const WalletCard: React.FC<Props> = ({ login, walletConfig, onDismiss, mb, isSelected }) => {
   const { title, icon: Icon } = walletConfig;
   return (
     <Button
-    isSelected={isSelected}
+      isSelected={isSelected}
       width="100%"
       variant="tertiary"
       onClick={() => {
@@ -37,7 +38,7 @@ const WalletCard: React.FC<Props> = ({ login, walletConfig, onDismiss, mb,isSele
       id={`wallet-connect-${title.toLocaleLowerCase()}`}
     >
       <Icon mr="8px" width="20px" height="20px" />
-      <Text bold color="primary" >
+      <Text bold color="primary">
         {title}
       </Text>
     </Button>

@@ -28,14 +28,8 @@ const StyledPanel = styled.div<{ isPushed: boolean; showMenu: boolean }>`
   z-index: 11;
   overflow: ${({ isPushed }) => (isPushed ? "initial" : "hidden")};
   transform: translate3d(0, 0, 0);
-  background-image: linear-gradient(
-    to bottom,
-    #6f7646,
-    66%,
-    rgba(0,0,0,0.3225665266106442)
-  );
-  border: 
-  ${({ isPushed }) => !isPushed && "white-space: nowrap;"};
+  background-image: linear-gradient(to bottom, #6f7646, 66%, rgba(0, 0, 0, 0.3225665266106442));
+  border: ${({ isPushed }) => !isPushed && "white-space: nowrap;"};
 
   ${({ theme }) => theme.mediaQueries.nav} {
     border-right: 2px solid rgba(133, 133, 133, 0.1);
@@ -49,7 +43,7 @@ const Panel: React.FC<Props> = (props) => {
     <StyledPanel isPushed={isPushed} showMenu={showMenu}>
       <PanelHeader {...props} />
       <PanelBody {...props} />
-      <PanelFooter {...props}/>
+      <PanelFooter {...props} />
     </StyledPanel>
   );
 };
