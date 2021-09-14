@@ -124,14 +124,14 @@ max-width: 24rem;
 const NetworkModal: React.FC<Props> = ({ login, onDismiss = () => null }) => (
   <Modal title="Choose a Network" onDismiss={onDismiss}>
     <p>Select a network to switch to in MetaMask.</p>
-    {config.map((entry, index) => (
+    {config.map((entry) => (
       <WalletCard
         key={entry.title}
         login={login}
         walletConfig={entry}
         onDismiss={onDismiss}
-        isSelected={entry.title === 'Binance Smart Chain' ? true : false}
-        mb={index < config.length - 1 ? "8px" : "0"}
+        isSelected={false}
+        mb="8px"
       />
     ))}
     <p>Currently connected to: <b>Bsc-testnet</b></p>
