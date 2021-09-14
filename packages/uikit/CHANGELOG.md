@@ -3,6 +3,48 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.47.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.46.0...@kenjiwb/uikit@0.47.0) (2021-09-14)
+
+
+### Bug Fixes
+
+* adjust banner title on claim prizes page ([af812a5](https://github.com/kenjiwb/safariswap-toolkit/commit/af812a5477730e0ca57d3bcdbbeb124d474c7549))
+* adjust panel on sidebar menu ([7a29e68](https://github.com/kenjiwb/safariswap-toolkit/commit/7a29e683b3f880b8db546cf31d1aaacea2208b89))
+* adjust typography on claim prizes page ([f75bb4d](https://github.com/kenjiwb/safariswap-toolkit/commit/f75bb4db6438c0e4fbf464ee9c3d546b0d5798a5))
+* build fix ([521f0af](https://github.com/kenjiwb/safariswap-toolkit/commit/521f0af4c0cbdba2443ebf9e3a6342252e2e3f31))
+* build fix ([9b7aa4f](https://github.com/kenjiwb/safariswap-toolkit/commit/9b7aa4f3cc7733db8eda8af87980653145071f63))
+* change button color white to black on network modal ([c12c24d](https://github.com/kenjiwb/safariswap-toolkit/commit/c12c24df41b45a17408fc569a395d4eb200a38f4))
+* change pancake round icon to safari swap icon ([b8df3e3](https://github.com/kenjiwb/safariswap-toolkit/commit/b8df3e38fff42e8297a90c67aaafcf916cfe1832))
+* change PancakeRound icon to RhinoIcon icon ([f2301a2](https://github.com/kenjiwb/safariswap-toolkit/commit/f2301a214dfcc786d27d5d74a714774f3e8c75c8))
+* config ConnectModal make it back ([066cb3d](https://github.com/kenjiwb/safariswap-toolkit/commit/066cb3db5bf9b9f57c316833a9d247d25fafc93f))
+* eslint error ([45a29f5](https://github.com/kenjiwb/safariswap-toolkit/commit/45a29f5d9a374ee6cc68aedfedb2999e0dc31c69))
+* eslint fix ([4ccb0a0](https://github.com/kenjiwb/safariswap-toolkit/commit/4ccb0a02a8464774c882c9cd08275222b145a84c))
+* fix error build ([76f196e](https://github.com/kenjiwb/safariswap-toolkit/commit/76f196e3e2d4634c122dc167393f74f778bf3d97))
+* Formater check ([381037f](https://github.com/kenjiwb/safariswap-toolkit/commit/381037f134d4540b26cf1ae9412ec68549d18e87))
+* important remove on choose a network modal ([22b6540](https://github.com/kenjiwb/safariswap-toolkit/commit/22b6540d823a1622873a2016fb2e9dd07733c20f))
+* remove balance component ([5bcd4b2](https://github.com/kenjiwb/safariswap-toolkit/commit/5bcd4b23eeef3bc2c4404529a7b9d298377f5f13))
+* remove commented code ([15abd58](https://github.com/kenjiwb/safariswap-toolkit/commit/15abd588459cfad86f66f5ed2da097caba428fea))
+* remove commented code ([9cb3407](https://github.com/kenjiwb/safariswap-toolkit/commit/9cb3407cdac250b39b5119b38faae0b4be98ea76))
+* replace the purple with yellow ([aa87128](https://github.com/kenjiwb/safariswap-toolkit/commit/aa871281998748e9fe5fda8178f76c6506b2cde6))
+* RhinoIcon viewBox attribute ([c49e006](https://github.com/kenjiwb/safariswap-toolkit/commit/c49e0068e034e96d1d65f2db2c3034fdc2441390))
+
+
+### Features
+
+* add background-color topNav and sideNav ([b90489f](https://github.com/kenjiwb/safariswap-toolkit/commit/b90489f553b7034332aad61b30ebe3adc62741f0))
+* add balance text on menu ([21b1726](https://github.com/kenjiwb/safariswap-toolkit/commit/21b1726a8c8a75221fb74d74d76978ef47c07114))
+* add balanceValue on menu ([dc7a030](https://github.com/kenjiwb/safariswap-toolkit/commit/dc7a030c48a2909419e327d0757b7dc1b6afe1b0))
+* add banner on claim prizes page ([d5e7fda](https://github.com/kenjiwb/safariswap-toolkit/commit/d5e7fda209f93e3103aa3f7cc05dd528f9135cb9))
+* add blur effect on connect to wallet modal ([ceb25b3](https://github.com/kenjiwb/safariswap-toolkit/commit/ceb25b3a0171278113451be0772255e27dd27df9))
+* add Choose a Network Modal ([2394e28](https://github.com/kenjiwb/safariswap-toolkit/commit/2394e283081c86cfc1d1399c714815ce92134f11))
+* add dark green color on active sidebar menu ([79ce873](https://github.com/kenjiwb/safariswap-toolkit/commit/79ce873b500deac315cda39f404e9a12a37b99f8))
+* add font-weight 300 Select a network to switch to in MetaMask. text on network modal ([e6e2612](https://github.com/kenjiwb/safariswap-toolkit/commit/e6e2612914c5696e265d0ca3a697016382d58451))
+* add networkmodal on connect modal ([c63d77b](https://github.com/kenjiwb/safariswap-toolkit/commit/c63d77b82219911dfb3f6a7812ee80ccad34a71e))
+
+
+
+
+
 # [0.46.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.45.0...@kenjiwb/uikit@0.46.0) (2021-07-14)
 
 
