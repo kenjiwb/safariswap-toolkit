@@ -131,7 +131,7 @@ const NetworkModal: React.FC<Props> = ({ login, onDismiss = () => null }) => (
         walletConfig={entry}
         onDismiss={onDismiss}
         isSelected={entry.title === 'Binance Smart Chain' ? true : false}
-        mb={index < config.length - 1 ? "8px" : "0"}
+        mb="8px"
       />
     ))}
     <p>Currently connected to: <b>Bsc-testnet</b></p>

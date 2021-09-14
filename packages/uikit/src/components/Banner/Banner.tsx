@@ -199,7 +199,8 @@ fill: rgb(40, 13, 95);
 flex-shrink: 0;
 `
 
-const Banner: React.FC<BannerProps> = ({ date,title,prizes,description,image  }) => {
+const Banner: React.FC<BannerProps> = ({ date,title,description,image  }) => {
+
 
   return (
 <BannerWrapper>

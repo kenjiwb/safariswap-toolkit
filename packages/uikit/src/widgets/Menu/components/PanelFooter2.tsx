@@ -8,13 +8,11 @@ background-color: transparent;
 
 
 const PanelFooter: React.FC = ({
-}) => {
-
-  return (
+}) => (
     <Container>
         <Elephant/>
     </Container>
   );
-};
+;
 
 export default PanelFooter;
