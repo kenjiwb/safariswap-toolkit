@@ -10,7 +10,7 @@ interface Props {
   login: Login;
   onDismiss: () => void;
   mb: string;
-  isSelected: boolean;
+  isSelected?: boolean;
 }
 
 interface CustomButtonProps {
