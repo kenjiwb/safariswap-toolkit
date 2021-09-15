@@ -72,6 +72,7 @@ export type Colors = {
   overlay: string;
   safariGreen: string;
   safariGreen2: string;
+  safariGreen3: string;
   safariText3: string;
 };
 
