@@ -51,7 +51,7 @@ color: #ffffff;
 background-color: rgba(46,51,72,1);
 `
 
-const DepositModalv2: React.FC<Props> = ({ login, onDismiss = () => null }) => (
+const DepositModalv2: React.FC<Props> = ({ onDismiss = () => null }) => (
   <Modal title="Deposit Your Tokens" onDismiss={onDismiss}>
       <ModalActions>
     <Button
