@@ -14,6 +14,7 @@ export const additionalColors = {
   binance: "#F0B90B",
   safariGreen: "#6A7443",
   safariGreen2: "#CBD479",
+  safariGreen3: "#718353",
   safariText3: "#D0D64C",
   overlay: "#7183533d",
 };
