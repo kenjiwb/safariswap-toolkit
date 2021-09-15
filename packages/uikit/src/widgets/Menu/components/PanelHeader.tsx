@@ -5,13 +5,13 @@ import IconButton from "../../../components/Button/IconButton";
 import { PanelProps, PushedProps } from "../types";
 import CakePrice from "./CakePrice";
 import LangSelector from "./LangSelector";
-import BalanceValue from './BalanceValue'
+import BalanceValue from "./BalanceValue";
 
 interface Props extends PanelProps, PushedProps {}
 
 const Container = styled.div`
   flex: none;
-  padding: 8px 4px ;
+  padding: 8px 4px;
   background-color: transparent;
   border-bottom: solid 2px rgba(133, 133, 133, 0.1);
 `;
@@ -24,8 +24,8 @@ const SettingsEntry = styled.div`
 `;
 
 const BalanceText = styled.div`
-color: #ffffff;
-font-size: 12px;
+  color: #ffffff;
+  font-size: 12px;
 `;
 
 const PanelHeader: React.FC<Props> = ({ isPushed, pushNav, cakePriceUsd, currentLang, langs, setLang }) => {
@@ -46,11 +46,10 @@ const PanelHeader: React.FC<Props> = ({ isPushed, pushNav, cakePriceUsd, current
         <LangSelector position="bottom" currentLang={currentLang} langs={langs} setLang={setLang} />
       </SettingsEntry>
       <SettingsEntry>
-     
-      <BalanceText>Balance Credit</BalanceText>
+        <BalanceText>Balance Credit</BalanceText>
       </SettingsEntry>
-      <SettingsEntry style={{justifyContent: 'flex-start'}}>
-    <BalanceValue value={1000} />
+      <SettingsEntry style={{ justifyContent: "flex-start" }}>
+        <BalanceValue value={1000} />
       </SettingsEntry>
     </Container>
   );
