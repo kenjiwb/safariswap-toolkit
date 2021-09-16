@@ -1,18 +1,18 @@
 import React from "react";
 /* eslint-disable import/no-unresolved */
 import { Meta } from "@storybook/react/types-6-0";
-import Banner from "./Banner";
+import ClaimprizeBanner from "./ClaimprizeBanner";
 import safariswap from "../../images/lion.jpg";
 
 export default {
-  title: "Components/Banner",
-  component: Banner,
+  title: "Components/ClaimprizeBanner",
+  component: ClaimprizeBanner,
   argTypes: {},
 } as Meta;
 
 export const Default: React.FC = () => {
   return (
-    <Banner
+    <ClaimprizeBanner
       date="weekly"
       title="Claim Prize"
       description="Exchange NFTs here to get our $Nature Tokens"

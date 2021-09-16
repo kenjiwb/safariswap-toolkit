@@ -194,7 +194,7 @@ const Image = styled.img`
   animation: ${floatingAnimation} 3s linear infinite;
 `;
 
-const Banner: React.FC<BannerProps> = ({ date, title, description, image }) => {
+const ClaimprizeBanner: React.FC<BannerProps> = ({ date, title, description, image }) => {
   return (
     <BannerWrapper>
       <Container>
@@ -216,4 +216,4 @@ const Banner: React.FC<BannerProps> = ({ date, title, description, image }) => {
   );
 };
 
-export default Banner;
+export default ClaimprizeBanner;

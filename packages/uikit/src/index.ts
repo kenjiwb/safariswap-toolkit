@@ -5,6 +5,7 @@ export * from "./components/Box";
 export * from "./components/Breadcrumbs";
 export * from "./components/Button";
 export * from "./components/ButtonMenu";
+export * from "./components/Banner";
 export * from "./components/Card";
 export * from "./components/Checkbox";
 export * from "./components/Dropdown";
@@ -30,6 +31,7 @@ export * from "./components/Tag";
 export * from "./components/Text";
 export * from "./components/Toggle";
 export * from "./components/LangSelector";
+export * from "./components/ClaimprizeBanner";
 
 // Hooks
 export * from "./hooks";
