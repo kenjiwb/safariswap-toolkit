@@ -31,6 +31,7 @@ export * from "./components/Tag";
 export * from "./components/Text";
 export * from "./components/Toggle";
 export * from "./components/LangSelector";
+export * from "./components/ClaimprizeBanner";
 
 // Hooks
 export * from "./hooks";
