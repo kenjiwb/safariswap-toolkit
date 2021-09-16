@@ -18,7 +18,7 @@ interface NFT {
 
 interface Props {
   totalNFT: number;
-  NFTInventory: NFT[];
+  NFTInventory: any;
   onDismiss?: () => void;
 }
 
