@@ -5,7 +5,7 @@ import ClaimprizeBanner from "./ClaimprizeBanner";
 import safariswap from "../../images/lion.jpg";
 
 export default {
-  title: "Components/New Banner",
+  title: "Components/ClaimprizeBanner",
   component: ClaimprizeBanner,
   argTypes: {},
 } as Meta;
