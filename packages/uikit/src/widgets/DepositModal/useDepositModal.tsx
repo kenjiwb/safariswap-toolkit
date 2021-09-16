@@ -8,7 +8,7 @@ interface ReturnType {
   onPresentConnectModalv2: () => void;
 }
 
-const useDepositModal = (login: any, ): ReturnType => {
+const useDepositModal = (login: any): ReturnType => {
   const [onPresentConnectModal] = useModal(<ConnectModal login={login} />);
   const [onPresentConnectModalv2] = useModal(<NetworkModal login={login} />);
   return { onPresentConnectModal, onPresentConnectModalv2 };

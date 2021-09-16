@@ -1,7 +1,13 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { BannerProps } from "./types";
+// import './style.css'
 
+const floatingAnimation = keyframes`
+0%{transform: translate(0, 0px);}
+50%{transform: translate(0, 20px);}
+100%{transform: translate(0, 0px)}
+`;
 const BannerWrapper = styled.div`
   @media screen and (min-width: 968px) {
     margin-top: -64px;
@@ -12,7 +18,8 @@ const BannerWrapper = styled.div`
   -webkit-box-align: center;
   align-items: center;
   z-index: 0;
-  background: radial-gradient(329.58% 50% at 50% 50%, rgb(59, 40, 100) 0%, rgb(25, 19, 38) 100%);
+  // background: linear-gradient( #824026 0%,  rgb(45,23,14) 100%);
+  background: #824026;
   clip-path: ellipse(170% 100% at 50% 0);
   padding: 48px 0px;
   display: flex;
@@ -50,7 +57,7 @@ const ContainerNested = styled.div`
   flex-direction: row-reverse !important;
   flex-wrap: wrap;
   -webkit-box-pack: justify;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: column;
   display: flex;
   margin-bottom: 0px;
@@ -101,7 +108,7 @@ const Date = styled.div`
     text-align: left;
   }
   text-align: center;
-  color: rgb(122, 110, 170);
+  color: #ffffff;
   font-size: 16px;
   font-weight: 600;
   line-height: 1.5;
@@ -128,7 +135,7 @@ const Title = styled.h2`
   line-height: 110%;
   color: rgb(255, 255, 255) !important;
   text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
-  background: -webkit-linear-gradient(rgb(118, 69, 217) 0%, rgb(69, 42, 122) 100%);
+  background: -webkit-linear-gradient(rgb(30, 53, 123) 0%, rgb(20, 32, 69) 100%);
   -webkit-text-stroke: 4px transparent;
   -webkit-background-clip: text;
 `;
@@ -160,7 +167,8 @@ const Description = styled.div`
   }
   font-size: 16px;
   text-align: center;
-  color: rgb(215, 202, 236);
+  // color: rgb(215, 202, 236);
+  color: #ffffff;
   margin-top: 16px;
   font-weight: 600;
 
@@ -173,6 +181,7 @@ const Image = styled.img`
   @media screen and (min-width: 576px) {
     height: 280px;
     width: 280px;
+    animation: ${floatingAnimation} 3s linear infinite;
   }
   margin-left: auto;
   margin-right: auto;
@@ -181,6 +190,8 @@ const Image = styled.img`
   align-self: center;
   fill: rgb(40, 13, 95);
   flex-shrink: 0;
+
+  animation: ${floatingAnimation} 3s linear infinite;
 `;
 
 const Banner: React.FC<BannerProps> = ({ date, title, description, image }) => {
@@ -190,7 +201,7 @@ const Banner: React.FC<BannerProps> = ({ date, title, description, image }) => {
         <ContainerNested>
           <RightSideContainer>
             <ImageContainer>
-              <Image src={image} />
+              <Image className="banner" src={image} />
             </ImageContainer>
           </RightSideContainer>
           <LeftSideContainer>

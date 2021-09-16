@@ -15,7 +15,7 @@ export const Default: React.FC = () => {
     <Banner
       date="weekly"
       title="Claim Prize"
-      description="Compete with other teams to win CAKE, collectible NFTs, achievements & more!"
+      description="Exchange NFTs here to get our $Nature Tokens"
       image={safariswap}
     />
   );
