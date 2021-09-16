@@ -1,17 +1,17 @@
 import React from "react";
 import { useModal } from "../Modal";
-import ConnectModal from "./DepositModal";
-import NetworkModal from "./DepositModalv2";
+import DepositModal from "./DepositModal";
+import DepositModalv2 from "./DepositModalv2";
 
 interface ReturnType {
-  onPresentConnectModal: () => void;
-  onPresentConnectModalv2: () => void;
+  onPresentDepositModal: () => void;
+  onPresentDepositModalv2: () => void;
 }
 
 const useDepositModal = (login: any, ): ReturnType => {
-  const [onPresentConnectModal] = useModal(<ConnectModal login={login} />);
-  const [onPresentConnectModalv2] = useModal(<NetworkModal login={login} />);
-  return { onPresentConnectModal, onPresentConnectModalv2 };
+  const [onPresentDepositModal] = useModal(<DepositModal login={login} />);
+  const [onPresentDepositModalv2] = useModal(<DepositModalv2 login={login} />);
+  return { onPresentDepositModal, onPresentDepositModalv2 };
 };
 
 export default useDepositModal;
