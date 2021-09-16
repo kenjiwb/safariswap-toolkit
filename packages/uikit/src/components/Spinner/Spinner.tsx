@@ -26,10 +26,10 @@ const float = keyframes`
 `;
 
 const Container = styled.div`
-display: flex;
-justify-content:space-between;
-align-items: center;
-max-width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100px;
 `;
 
 const RotatingSafariSwapIcon = styled.img`
@@ -38,8 +38,8 @@ const RotatingSafariSwapIcon = styled.img`
   height: 100%;
 `;
 
-const RotatingSafariSwapGaming= styled.img`
-margin-bottom: 8px;
+const RotatingSafariSwapGaming = styled.img`
+  margin-bottom: 8px;
   animation: ${float} 6s ease-in-out infinite;
   transform: translate3d(0, 0, 0);
 `;
@@ -47,21 +47,21 @@ margin-bottom: 8px;
 const Spinner: React.FC<SpinnerProps> = ({ size = 128 }) => {
   return (
     <>
-       <Container>
-       <RotatingSafariSwapIcon width={`${size * 0.3}px`} src={SafariSwapIcon}/>
-       <RotatingSafariSwapIcon width={`${size * 0.3}px`} src={SafariSwapIcon}/>
-       <RotatingSafariSwapIcon width={`${size * 0.3}px`} src={SafariSwapIcon}/>
-    </Container>
-    <Container>
-          <RotatingSafariSwapIcon width={`${size * 0.3}px`} src={SafariSwapIcon}/>
-      <RotatingSafariSwapGaming width={`${size}px`} src={SafariswapGaming} />
-      <RotatingSafariSwapIcon width={`${size * 0.3}px`} src={SafariSwapIcon}/>
-    </Container>
-    <Container>
-    <RotatingSafariSwapIcon width={`${size * 0.3}px`} src={SafariSwapIcon}/>
-    <RotatingSafariSwapIcon width={`${size * 0.3}px`} src={SafariSwapIcon}/>
-    <RotatingSafariSwapIcon width={`${size * 0.3}px`} src={SafariSwapIcon}/>
-    </Container>
+      <Container>
+        <RotatingSafariSwapIcon width={`${size * 0.3}px`} src={SafariSwapIcon} />
+        <RotatingSafariSwapIcon width={`${size * 0.3}px`} src={SafariSwapIcon} />
+        <RotatingSafariSwapIcon width={`${size * 0.3}px`} src={SafariSwapIcon} />
+      </Container>
+      <Container>
+        <RotatingSafariSwapIcon width={`${size * 0.3}px`} src={SafariSwapIcon} />
+        <RotatingSafariSwapGaming width={`${size}px`} src={SafariswapGaming} />
+        <RotatingSafariSwapIcon width={`${size * 0.3}px`} src={SafariSwapIcon} />
+      </Container>
+      <Container>
+        <RotatingSafariSwapIcon width={`${size * 0.3}px`} src={SafariSwapIcon} />
+        <RotatingSafariSwapIcon width={`${size * 0.3}px`} src={SafariSwapIcon} />
+        <RotatingSafariSwapIcon width={`${size * 0.3}px`} src={SafariSwapIcon} />
+      </Container>
     </>
   );
 };
