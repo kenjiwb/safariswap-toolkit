@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
-import { BannerProps } from "./types";
+import { ClaimPrizeBannerProps } from "./types";
 // import './style.css'
 
 const floatingAnimation = keyframes`
@@ -194,7 +194,7 @@ const Image = styled.img`
   animation: ${floatingAnimation} 3s linear infinite;
 `;
 
-const ClaimprizeBanner: React.FC<BannerProps> = ({ date, title, description, image }) => {
+const ClaimprizeBanner: React.FC<ClaimPrizeBannerProps> = ({ date, title, description, image }) => {
   return (
     <BannerWrapper>
       <Container>
