@@ -3,6 +3,39 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.48.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.47.0...@kenjiwb/uikit@0.48.0) (2021-09-17)
+
+
+### Bug Fixes
+
+* adjust balanceCredit ([15a7c1b](https://github.com/kenjiwb/safariswap-toolkit/commit/15a7c1bd7125bccf493aeea13f5bacca67e09f81))
+* **banner:** Changes for release ([b784b1b](https://github.com/kenjiwb/safariswap-toolkit/commit/b784b1bc0378b68dcb986003930b2784180aa6c0))
+* **banner:** Changes for release ([a2a3b1a](https://github.com/kenjiwb/safariswap-toolkit/commit/a2a3b1a28768d4632e337f0602059c5c67039d4f))
+* build fix ([f00febe](https://github.com/kenjiwb/safariswap-toolkit/commit/f00febe605d41ab60cd0ada3d980b7af9dac016a))
+* build fix ([cf9cf23](https://github.com/kenjiwb/safariswap-toolkit/commit/cf9cf23b922e2c9474cde0524f53256a9da31a71))
+* build fix ([8e768fc](https://github.com/kenjiwb/safariswap-toolkit/commit/8e768fcc68a9a6e8a940c0f2a9fd2aa0e6fd7bea))
+* change hover background color on menu ([c07a075](https://github.com/kenjiwb/safariswap-toolkit/commit/c07a075ea1927f053519c3643d034232c9e7b02e))
+* change spinner image to safariswap image ([3b16999](https://github.com/kenjiwb/safariswap-toolkit/commit/3b1699906d3b4ccd97603e60de0b2d285120fa2f))
+* **merge:** Claimprize banner ([d0d2be0](https://github.com/kenjiwb/safariswap-toolkit/commit/d0d2be02b761e789f14cb2e5cd2e8f1516fb8a3e))
+* **merge:** Merge Conflicts ([e66b42c](https://github.com/kenjiwb/safariswap-toolkit/commit/e66b42cb322074f0485cef429b41d63412ad019e))
+* **merge:** Merge Conflicts ([939ac35](https://github.com/kenjiwb/safariswap-toolkit/commit/939ac351ad1276c2115060559617d2896f57aa48))
+* **merge:** New banner ([a1e941c](https://github.com/kenjiwb/safariswap-toolkit/commit/a1e941c883eb8d98589eb8d3cc2e113d17095383))
+* remove approve on nft modal ([2ecbd7b](https://github.com/kenjiwb/safariswap-toolkit/commit/2ecbd7bd1f689a11f61f1d36859886c36620c7d5))
+* **Ui:** Banner changes ([a577d9d](https://github.com/kenjiwb/safariswap-toolkit/commit/a577d9d8398e6b464add3437332e00f6d24a0429))
+
+
+### Features
+
+* add deposit modal ([80fd0fc](https://github.com/kenjiwb/safariswap-toolkit/commit/80fd0fc84df3f19550c53c5ec5896642b50e2e17))
+* add import modal ([bc66075](https://github.com/kenjiwb/safariswap-toolkit/commit/bc660756572e3034369fdce52b07569f6e40de13))
+* add more safariswap coin images on spinner ([8fea005](https://github.com/kenjiwb/safariswap-toolkit/commit/8fea005f15c9f950fb21540fd8c39bba086ecfae))
+* change background color on menu ([8169856](https://github.com/kenjiwb/safariswap-toolkit/commit/8169856759f679f92e5148aad01948def6fa5b18))
+* remove approve on nft modal ([768fd8b](https://github.com/kenjiwb/safariswap-toolkit/commit/768fd8bb28db37c5d9c27b21e72ceca58f307f1f))
+
+
+
+
+
 # [0.47.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.46.0...@kenjiwb/uikit@0.47.0) (2021-09-14)
 
 
