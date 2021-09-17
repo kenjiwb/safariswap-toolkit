@@ -1,3 +1,5 @@
+/* eslint-disable consistent-return */
+/* eslint-disable prefer-template */
 import React, { useState } from "react";
 import styled from "styled-components";
 import Pagination from "react-js-pagination";
@@ -46,6 +48,13 @@ const StyledCardContent = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .details-description {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     flex-direction: row;
   }
 `;
@@ -190,13 +199,10 @@ const renderNft = (inventoryList: NFT[], pageNumber: number) => {
                   {NFT?.variant}{" "}
                 </span>
               </p>
-              <p className="details" style={{ marginTop: "4px" }}>
+              <p className="details-description " style={{ marginTop: "4px" }}>
                 {" "}
                 <span>Price:</span>
-                <span style={{ fontSize: "1.2rem" }}> {NFT?.price} </span>{" "}
-                <Button scale="sm" style={{ backgroundColor: "#FEEF03", color: "#718353" }}>
-                  Approve
-                </Button>
+                <span style={{ fontSize: "1.2rem", marginLeft: 16 }}> {NFT?.price} </span>{" "}
               </p>
             </CardFooter>
           </Card>
@@ -209,8 +215,8 @@ const renderNft = (inventoryList: NFT[], pageNumber: number) => {
 const NFTModal: React.FC<Props> = ({ totalNFT, NFTInventory, onDismiss = () => null }) => {
   const [pageNumber, setPageNumber] = useState<number>(1);
 
-  const handlePageChange = (pageNumber: number) => {
-    setPageNumber(pageNumber);
+  const handlePageChange = (pageNumber1: number) => {
+    setPageNumber(pageNumber1);
   };
 
   const handleNext = () => {
@@ -251,7 +257,7 @@ const NFTModal: React.FC<Props> = ({ totalNFT, NFTInventory, onDismiss = () => n
           <PaginationContainer>
             <Pagination
               activePage={pageNumber}
-              hideNavigation={true}
+              // hideNavigation={true}
               // hideFirstLastPages={true}
               itemClass="page-item"
               linkClass="page-link"
