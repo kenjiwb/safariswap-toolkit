@@ -1,4 +1,7 @@
 /* eslint-disable */
+
+// this is development mode enable image 
+
 // import Vulture from './nft-inventory/Vulture.jpeg'
 // import Foxy from './nft-inventory/Foxy.jpeg'
 // import Ele from './nft-inventory/Ele.jpeg'
@@ -19,6 +22,10 @@
 //   { name: 'Zebby', price: '100$', variant: 'Common', color: 'white', text: '#46373B', img: Zebby },
 // ]
 
+// this is development mode enable image 
+
+// this is build mode disabled image 
+
 const NFTInventory = [
   { name: 'Vulture', price: '100$', variant: 'Common', color: 'white', text: '#46373B', img: '' },
   { name: 'Foxy', price: '500$', variant: 'Legend', color: '#d4af37', text: 'white', img: '' },
@@ -29,5 +36,7 @@ const NFTInventory = [
   { name: 'Hippy', price: '200$', variant: 'Special', color: '#ff6700', text: 'white', img: '' },
   { name: 'Zebby', price: '100$', variant: 'Common', color: 'white', text: '#46373B', img: '' },
 ]
+
+// this is build mode disabled image 
 
 export default NFTInventory
