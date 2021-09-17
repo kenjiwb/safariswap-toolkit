@@ -1,2 +1,2 @@
 export { default as ClaimprizeBanner } from "./ClaimprizeBanner";
-export type { BannerProps } from "./types";
+export type { ClaimPrizeBannerProps } from "./types";

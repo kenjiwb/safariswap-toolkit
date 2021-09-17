@@ -9,9 +9,7 @@ export default {
 };
 
 export const Wallet: React.FC = () => {
-  const { onPresentNFTModal } = useNFTModal(
-    () => null,
-  );
+  const { onPresentNFTModal } = useNFTModal(() => null);
   return (
     <Flex>
       <Button onClick={onPresentNFTModal}>Open NFT modal</Button>

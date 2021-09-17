@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import Pagination from "react-js-pagination";
-import ModalActions from './ModalActions'
+import ModalActions from "./ModalActions";
 import { Modal as DefaultModal } from "../Modal";
 import { Button } from "../../components/Button";
-import { Card,CardBody,CardFooter } from "../../components/Card";
-import { ArrowBackIcon as DefaultArrowBackIcon, ArrowForwardIcon as DefaultArrowForwardIcon } from "../../components/Svg";
+import { Card, CardBody, CardFooter } from "../../components/Card";
+import {
+  ArrowBackIcon as DefaultArrowBackIcon,
+  ArrowForwardIcon as DefaultArrowForwardIcon,
+} from "../../components/Svg";
 
 interface NFT {
   text: string;
@@ -26,7 +29,7 @@ const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   position: relative;
-`
+`;
 
 const StyledCardContent = styled.div`
   align-items: start;
@@ -45,7 +48,7 @@ const StyledCardContent = styled.div`
     justify-content: space-between;
     flex-direction: row;
   }
-`
+`;
 const Modal = styled(DefaultModal)`
 transition: display 2s linear 1s;
 overflow: auto;
@@ -73,194 +76,196 @@ max-width: 900px;
 `;
 
 const PaginationContainer = styled.div`
-.pagination {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-left: 0;
-  list-style: none;
-  border-radius: 0.25rem;
-}
+  .pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: 0.25rem;
+  }
 
-.page-item:first-child .page-link {
-  margin-left: 0;
-  border-top-left-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
-}
+  .page-item:first-child .page-link {
+    margin-left: 0;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+  }
 
-.page-item:last-child .page-link {
-  border-top-right-radius: 0.25rem;
-  border-bottom-right-radius: 0.25rem;
-}
+  .page-item:last-child .page-link {
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+  }
 
-.page-item.active .page-link {
-  z-index: 1;
-  color: #fff;
-  background: ${({ theme }) => theme.colors.primary}; 
-  background: ${({ theme }) => theme.colors.primary}; 
-}
+  .page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background: ${({ theme }) => theme.colors.primary};
+    background: ${({ theme }) => theme.colors.primary};
+  }
 
-.page-item.disabled .page-link {
-  color: ${({ theme }) => theme.colors.primary}; 
-  pointer-events: none;
-  cursor: auto;
-  background-color: #fff;
-  border-color: #dee2e6;
-}
+  .page-item.disabled .page-link {
+    color: ${({ theme }) => theme.colors.primary};
+    pointer-events: none;
+    cursor: auto;
+    background-color: #fff;
+    border-color: #dee2e6;
+  }
 
-.page-link {
-  position: relative;
-  display: block;
-  padding: 0.5rem 0.75rem;
-  margin-left: -1px;
-  line-height: 1.25;
-  color: ${({ theme }) => theme.colors.primary}; 
-  background-color: #fff;
-  border: 1px solid #dee2e6;
-}
+  .page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: ${({ theme }) => theme.colors.primary};
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+  }
 
-.page-link:hover {
-  color: #0056b3;
-  text-decoration: none;
-  background-color: #e9ecef;
-  border-color: #dee2e6;
-}
+  .page-link:hover {
+    color: #0056b3;
+    text-decoration: none;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+  }
 
-.page-link:focus {
-  z-index: 2;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-}
+  .page-link:focus {
+    z-index: 2;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
 
-.page-link:not(:disabled):not(.disabled) {
-  cursor: pointer;
-}
-`
+  .page-link:not(:disabled):not(.disabled) {
+    cursor: pointer;
+  }
+`;
 const ArrowBackIcon = styled(DefaultArrowBackIcon)`
-position: absolute;
-left: -36px;
-color: #ffffff;
-font-size: 16px;
-top: 50%;
-transform: translateY(-50%);  
-cursor: pointer;
-fill: #ffffff;
-`
+  position: absolute;
+  left: -36px;
+  color: #ffffff;
+  font-size: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  fill: #ffffff;
+`;
 
 const ArrowForwardIcon = styled(DefaultArrowForwardIcon)`
-position: absolute;
-right: -36px;
-top: 50%;
-transform: translateY(-50%);  
-cursor: pointer;
-fill: #ffffff;
-`
+  position: absolute;
+  right: -36px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  fill: #ffffff;
+`;
 
-const renderNft = (inventoryList: NFT[], pageNumber: number) => { 
-  const startIndex = (pageNumber -1) * 6; 
+const renderNft = (inventoryList: NFT[], pageNumber: number) => {
+  const startIndex = (pageNumber - 1) * 6;
   const lastIndex = pageNumber * 6;
 
-  return inventoryList.slice(startIndex,lastIndex).map((NFT: NFT) => {
-    const isLegend = NFT?.variant === 'Legend'
- return (
-   <StyledCardContent>
-   <div>
-     <Card className={'hover ' + (isLegend ? 'sad' : '')} style={{ margin: '0.4rem', borderRadius: '5px' }}>
-       {' '}
-       <CardBody style={{ borderRadius: '5px', padding: '10px', margin: '0' }}>
-         <img  style={{ borderRadius: '5px', maxWidth: '100%', height: 'auto' }} src={NFT.img} alt="" />
-       </CardBody>{' '}
-       <CardFooter style={{ padding: '12px 16px 16px' }}>
-         <p className="details">
-           <span style={{ fontSize: '2rem', fontWeight: 'bolder' }}>{NFT?.name}</span>
-           <span
-             style={{
-               background: `${NFT?.color}`,
-               color: `${NFT?.text}`,
-               padding: '3px 7px',
-               borderRadius: '25px',
-               marginLeft: '0.5rem',
-               textAlign: 'center',
-             }}
-           >
-             {' '}
-             {NFT?.variant}{' '}
-           </span>
-         </p>
-         <p className="details" style={{ marginTop: '4px' }}>
-           {' '}
-           <span>Price:</span>
-           <span style={{ fontSize: '1.2rem' }}> {NFT?.price} </span>{' '}
-           <Button scale="sm" style={{ backgroundColor: '#FEEF03', color: '#718353' }}>
-             Approve
-           </Button>
-         </p>
-       </CardFooter>
-     </Card>
-   </div>
- </StyledCardContent>
- )
-})
-}
+  return inventoryList.slice(startIndex, lastIndex).map((NFT: NFT) => {
+    const isLegend = NFT?.variant === "Legend";
+    return (
+      <StyledCardContent>
+        <div>
+          <Card className={"hover " + (isLegend ? "sad" : "")} style={{ margin: "0.4rem", borderRadius: "5px" }}>
+            {" "}
+            <CardBody style={{ borderRadius: "5px", padding: "10px", margin: "0" }}>
+              <img style={{ borderRadius: "5px", maxWidth: "100%", height: "auto" }} src={NFT.img} alt="" />
+            </CardBody>{" "}
+            <CardFooter style={{ padding: "12px 16px 16px" }}>
+              <p className="details">
+                <span style={{ fontSize: "2rem", fontWeight: "bolder" }}>{NFT?.name}</span>
+                <span
+                  style={{
+                    background: `${NFT?.color}`,
+                    color: `${NFT?.text}`,
+                    padding: "3px 7px",
+                    borderRadius: "25px",
+                    marginLeft: "0.5rem",
+                    textAlign: "center",
+                  }}
+                >
+                  {" "}
+                  {NFT?.variant}{" "}
+                </span>
+              </p>
+              <p className="details" style={{ marginTop: "4px" }}>
+                {" "}
+                <span>Price:</span>
+                <span style={{ fontSize: "1.2rem" }}> {NFT?.price} </span>{" "}
+                <Button scale="sm" style={{ backgroundColor: "#FEEF03", color: "#718353" }}>
+                  Approve
+                </Button>
+              </p>
+            </CardFooter>
+          </Card>
+        </div>
+      </StyledCardContent>
+    );
+  });
+};
 
-const NFTModal: React.FC<Props> = ({ totalNFT, NFTInventory,  onDismiss = () => null }) => {
+const NFTModal: React.FC<Props> = ({ totalNFT, NFTInventory, onDismiss = () => null }) => {
   const [pageNumber, setPageNumber] = useState<number>(1);
 
   const handlePageChange = (pageNumber: number) => {
-    setPageNumber(pageNumber)
-  }
+    setPageNumber(pageNumber);
+  };
 
   const handleNext = () => {
-    if (NFTInventory.length - (pageNumber -1 ) * 6 <= 6) {
+    if (NFTInventory.length - (pageNumber - 1) * 6 <= 6) {
       return setPageNumber(1);
     }
-    setPageNumber(pageNumber + 1)
-  }
+    setPageNumber(pageNumber + 1);
+  };
 
   const handlePrevious = () => {
     if (pageNumber === 1) {
       return setPageNumber(Math.floor(NFTInventory.length % 6));
     }
-    setPageNumber(pageNumber - 1)
-  }
-  
+    setPageNumber(pageNumber - 1);
+  };
+
   return (
-  <Modal title={`Total ${totalNFT}`} onDismiss={onDismiss}>
-    <Container>
-    {renderNft(NFTInventory, pageNumber)}
-    {NFTInventory.length > 6 &&
-    <>
-       <ArrowBackIcon onClick={handlePrevious}  height="40" width="40"/>
-    <ArrowForwardIcon  onClick={handleNext}    height="40" width="40"/>
-    </>
-    }
- 
-    </Container>
-<ModalActions>
-    <div style={{display: 'flex', justifyContent: 'space-between', paddingTop: '4px', paddingRight: '4px', paddingLeft: '4px'}}>
-      <PaginationContainer>
-    <Pagination
-          activePage={pageNumber}
-          hideNavigation={true}
-          // hideFirstLastPages={true}
-          itemClass="page-item"
-          linkClass="page-link"
-          itemsCountPerPage={6}
-          totalItemsCount={NFTInventory.length}
-          pageRangeDisplayed={5}
-          onChange={handlePageChange}
-        />
-        </PaginationContainer>
-    <Button
-    onClick={onDismiss}
-    >
-      Ok
-    </Button>
-    </div>
-  </ModalActions>
- 
-</Modal>)
+    <Modal title={`Total ${totalNFT}`} onDismiss={onDismiss}>
+      <Container>
+        {renderNft(NFTInventory, pageNumber)}
+        {NFTInventory.length > 6 && (
+          <>
+            <ArrowBackIcon onClick={handlePrevious} height="40" width="40" />
+            <ArrowForwardIcon onClick={handleNext} height="40" width="40" />
+          </>
+        )}
+      </Container>
+      <ModalActions>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            paddingTop: "4px",
+            paddingRight: "4px",
+            paddingLeft: "4px",
+          }}
+        >
+          <PaginationContainer>
+            <Pagination
+              activePage={pageNumber}
+              hideNavigation={true}
+              // hideFirstLastPages={true}
+              itemClass="page-item"
+              linkClass="page-link"
+              itemsCountPerPage={6}
+              totalItemsCount={NFTInventory.length}
+              pageRangeDisplayed={5}
+              onChange={handlePageChange}
+            />
+          </PaginationContainer>
+          <Button onClick={onDismiss}>Ok</Button>
+        </div>
+      </ModalActions>
+    </Modal>
+  );
 };
 
 export default NFTModal;
-
