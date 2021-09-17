@@ -28,7 +28,7 @@ const BalanceText = styled.div`
   font-size: 12px;
 `;
 
-const PanelHeader: React.FC<Props> = ({ isPushed, pushNav, cakePriceUsd,credit, currentLang, langs, setLang }) => {
+const PanelHeader: React.FC<Props> = ({ isPushed, pushNav, cakePriceUsd, credit, currentLang, langs, setLang }) => {
   if (!isPushed) {
     return (
       <Container>
