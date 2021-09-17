@@ -45,6 +45,13 @@ const StyledCardContent = styled.div`
     justify-content: space-between;
     flex-direction: row;
   }
+
+  .details-description {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+  }
 `
 const Modal = styled(DefaultModal)`
 transition: display 2s linear 1s;
@@ -187,13 +194,10 @@ const renderNft = (inventoryList: NFT[], pageNumber: number) => {
              {NFT?.variant}{' '}
            </span>
          </p>
-         <p className="details" style={{ marginTop: '4px' }}>
+         <p className="details-description " style={{ marginTop: '4px' }}>
            {' '}
            <span>Price:</span>
-           <span style={{ fontSize: '1.2rem' }}> {NFT?.price} </span>{' '}
-           <Button scale="sm" style={{ backgroundColor: '#FEEF03', color: '#718353' }}>
-             Approve
-           </Button>
+           <span style={{ fontSize: '1.2rem', marginLeft: 16 }}> {NFT?.price} </span>{' '}
          </p>
        </CardFooter>
      </Card>
