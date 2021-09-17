@@ -71,6 +71,7 @@ const Menu: React.FC<NavProps> = ({
   setLang,
   currentLang,
   cakePriceUsd,
+  credit,
   links,
   profile,
   children,
@@ -134,6 +135,7 @@ const Menu: React.FC<NavProps> = ({
           showMenu={showMenu}
           isDark={isDark}
           toggleTheme={toggleTheme}
+          credit={credit}
           langs={langs}
           setLang={setLang}
           currentLang={currentLang}

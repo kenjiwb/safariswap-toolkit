@@ -5,7 +5,7 @@ import IconButton from "../../../components/Button/IconButton";
 import { PanelProps, PushedProps } from "../types";
 import CakePrice from "./CakePrice";
 import LangSelector from "./LangSelector";
-import BalanceValue from "./BalanceValue";
+import BalanceCredit from "./BalanceCredit";
 
 interface Props extends PanelProps, PushedProps {}
 
@@ -28,7 +28,7 @@ const BalanceText = styled.div`
   font-size: 12px;
 `;
 
-const PanelHeader: React.FC<Props> = ({ isPushed, pushNav, cakePriceUsd, currentLang, langs, setLang }) => {
+const PanelHeader: React.FC<Props> = ({ isPushed, pushNav, cakePriceUsd,credit, currentLang, langs, setLang }) => {
   if (!isPushed) {
     return (
       <Container>
@@ -49,7 +49,7 @@ const PanelHeader: React.FC<Props> = ({ isPushed, pushNav, cakePriceUsd, current
         <BalanceText>Balance Credit</BalanceText>
       </SettingsEntry>
       <SettingsEntry style={{ justifyContent: "flex-start" }}>
-        <BalanceValue value={1000} />
+        <BalanceCredit credit={credit} />
       </SettingsEntry>
     </Container>
   );
