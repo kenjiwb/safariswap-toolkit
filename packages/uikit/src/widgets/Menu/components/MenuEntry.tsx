@@ -28,6 +28,7 @@ const LinkLabel = styled.div<{ isPushed: boolean }>`
 
 const MenuEntry = styled.div<Props>`
   cursor: pointer;
+  position: relative;
   display: flex;
   align-items: center;
   height: ${MENU_ENTRY_HEIGHT}px;
@@ -35,7 +36,17 @@ const MenuEntry = styled.div<Props>`
   font-size: ${({ secondary }) => (secondary ? "14px" : "16px")};
   background-color: ${({ secondary, theme }) => (secondary ? theme.colors.background : "transparent")};
   color: ${({ theme }) => theme.colors.textSubtle};
-  box-shadow: ${({ isActive, theme }) => (isActive ? `inset 4px 0px 0px ${theme.colors.primary}` : "none")};
+  // box-shadow: ${({ isActive, theme }) => (isActive ? `inset 4px 0px 0px ${theme.colors.primary}` : "none")};
+  ${({ isActive, }) => (isActive && `  ::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 4px;
+    background-image: linear-gradient(to bottom, #1fc7d4, rgba(248, 209, 47, 1)) !important;
+  }`)}
+
 
   a {
     display: flex;
