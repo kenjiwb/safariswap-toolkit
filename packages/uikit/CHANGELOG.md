@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.48.1](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.48.0...@kenjiwb/uikit@0.48.1) (2021-09-18)
+
+
+### Bug Fixes
+
+* **import:** Banner import fix ([0765fa4](https://github.com/kenjiwb/safariswap-toolkit/commit/0765fa47a6eb72486671436de98c6801317a66da))
+* **merge:** Claimprize banner ([551b49b](https://github.com/kenjiwb/safariswap-toolkit/commit/551b49b9f9caa745ad90ba59bbf15ae89e695d06))
+
+
+
+
+
 # [0.48.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.47.0...@kenjiwb/uikit@0.48.0) (2021-09-17)
 
 
