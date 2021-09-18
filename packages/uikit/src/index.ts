@@ -43,6 +43,7 @@ export * from "./widgets/Toast";
 export * from "./widgets/WalletModal";
 export * from "./widgets/NFTModal";
 export * from "./widgets/DepositModal";
+export * from "./widgets/SellCreditModal";
 
 // Theme
 export { default as ResetCSS } from "./ResetCSS";
