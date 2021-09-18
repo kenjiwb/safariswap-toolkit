@@ -2,7 +2,7 @@ import React from "react";
 import styled, { keyframes } from "styled-components";
 import { ClaimPrizeBannerProps } from "./types";
 // import './style.css'
-import safariswap from "../../images/lion.jpg";
+import lion from "./lion.png";
 
 const floatingAnimation = keyframes`
 0%{transform: translate(0, 0px);}
@@ -220,7 +220,7 @@ const ClaimprizeBanner: React.FC<ClaimPrizeBannerProps> = ({ date, title, descri
 ClaimprizeBanner.defaultProps = {
   title: "Claim Prize",
   description: "Exchange NFTs here to get our $Nature Tokens",
-  image: safariswap,
+  image: lion,
 };
 
 export default ClaimprizeBanner;
