@@ -11,4 +11,4 @@ const useSellCreditModal = (): ReturnType => {
   return { onPresentSellCreditModal };
 };
 
-export default useSellCreditModal; 
+export default useSellCreditModal;

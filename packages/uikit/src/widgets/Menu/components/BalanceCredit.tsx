@@ -11,7 +11,6 @@ const Balance = styled.div`
 `;
 
 const BalanceCredit: React.FC<Props> = ({ credit }) => {
-
   return (
     <>
       <img src={SafariSwapIcon} height="24" width="24" style={{ marginRight: 8 }} />

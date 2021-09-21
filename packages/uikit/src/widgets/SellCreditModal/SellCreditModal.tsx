@@ -1,10 +1,10 @@
-import React from 'react'
-import styled from 'styled-components'
-import { Modal } from '../Modal'
-import { Button } from '../../components/Button'
+import React from "react";
+import styled from "styled-components";
+import { Modal } from "../Modal";
+import { Button } from "../../components/Button";
 
 interface SellCreditModalProps {
-  onDismiss?: () => void
+  onDismiss?: () => void;
 }
 
 const StyledModal = styled(Modal)`
@@ -242,7 +242,7 @@ max-width: 320px;
     justify-content: flex-end;
   }
 }
-`
+`;
 
 const SellCreditModal: React.FC<SellCreditModalProps> = ({ onDismiss = () => null }) => {
   return (
@@ -254,38 +254,46 @@ const SellCreditModal: React.FC<SellCreditModalProps> = ({ onDismiss = () => nul
         </div>
       </div>
       <div className="textbox">
-<div className="textbox-content">
-  <div>
-    <div className="textbox-value">
-      <input type="number" className="textbox-input" defaultValue="0"/>
-    </div>
-    <div className="textbox-credit">~0.00 CREDIT</div>
-  </div>
-</div>
+        <div className="textbox-content">
+          <div>
+            <div className="textbox-value">
+              <input type="number" className="textbox-input" defaultValue="0" />
+            </div>
+            <div className="textbox-credit">~0.00 CREDIT</div>
+          </div>
+        </div>
       </div>
       <div className="balance-container">
-<div className="balance-container-nested">
-  <div className="error">Insufficient CREDIT balance</div>
-  <div className="balance">
-    <div className="text-subtle" style={{marginRight: 4, fontSize: 12}}>CREDIT Balance:</div>
-    <div className="text-subtle"style={{ fontSize: 12}}>
-0.000</div>
-  </div>
-</div>
+        <div className="balance-container-nested">
+          <div className="error">Insufficient CREDIT balance</div>
+          <div className="balance">
+            <div className="text-subtle" style={{ marginRight: 4, fontSize: 12 }}>
+              CREDIT Balance:
+            </div>
+            <div className="text-subtle" style={{ fontSize: 12 }}>
+              0.000
+            </div>
+          </div>
+        </div>
       </div>
       <div className="you-pay-container">
         <div className="text-subtle">You sell</div>
-        <div className="text-subtle" style={{color: 'rgb(40, 13, 95)'}}>~0 CREDIT</div>
+        <div className="text-subtle" style={{ color: "rgb(40, 13, 95)" }}>
+          ~0 CREDIT
+        </div>
       </div>
       <div className="enable-container">
-        <Button style={{borderRadius: 'unset'}} onClick={onDismiss}>        Enable
-</Button>
+        <Button style={{ borderRadius: "unset" }} onClick={onDismiss}>
+          {" "}
+          Enable
+        </Button>
       </div>
       <div className="footer">
-      &quot;Buy Instantly&quot; chooses random numbers, with no duplicates among your tickets. Prices are set before each round starts, equal to $5 at that time. Purchases are final.
+        &quot;Buy Instantly&quot; chooses random numbers, with no duplicates among your tickets. Prices are set before
+        each round starts, equal to $5 at that time. Purchases are final.
       </div>
-  </StyledModal>
-  )
-}
+    </StyledModal>
+  );
+};
 
-export default SellCreditModal
+export default SellCreditModal;
