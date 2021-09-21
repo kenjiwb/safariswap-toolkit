@@ -3,7 +3,7 @@ import styled from "styled-components";
 import SafariSwapIcon from "../../../images/safariswap-coin.png";
 
 interface Props {
-  credit?: number;
+  credit?: string;
 }
 
 const Balance = styled.div`
@@ -11,6 +11,7 @@ const Balance = styled.div`
 `;
 
 const BalanceCredit: React.FC<Props> = ({ credit }) => {
+
   return (
     <>
       <img src={SafariSwapIcon} height="24" width="24" style={{ marginRight: 8 }} />
