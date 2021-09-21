@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.49.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.48.1...@kenjiwb/uikit@0.49.0) (2021-09-21)
+
+
+### Bug Fixes
+
+* Formatter check ([14840d9](https://github.com/kenjiwb/safariswap-toolkit/commit/14840d9f11b26f1c6337f2245398b4d30a763906))
+* remove createToNature.css ([29a751d](https://github.com/kenjiwb/safariswap-toolkit/commit/29a751df8bd5865aba1ec665c1008d482dcba00c))
+
+
+### Features
+
+* add sell credit modal ([9a07526](https://github.com/kenjiwb/safariswap-toolkit/commit/9a075268303f986829888d13b3ec9a5ad7cce4f6))
+* change balance credit types number to string ([5dd7b8f](https://github.com/kenjiwb/safariswap-toolkit/commit/5dd7b8fcf43b635336f117de100bf104abb0de99))
+
+
+
+
+
 ## [0.48.1](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.48.0...@kenjiwb/uikit@0.48.1) (2021-09-18)
 
 
