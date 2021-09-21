@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import { Modal } from '../Modal'
 import { Button } from '../../components/Button'
-import './CreateToNature.css'
 
 interface SellCreditModalProps {
   onDismiss?: () => void
