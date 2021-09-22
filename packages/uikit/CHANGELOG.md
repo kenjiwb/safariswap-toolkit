@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.50.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.49.0...@kenjiwb/uikit@0.50.0) (2021-09-22)
+
+
+### Features
+
+* useNftModal fix ([768f5b1](https://github.com/kenjiwb/safariswap-toolkit/commit/768f5b1e8767db978d866bd6b679dc25b5a91df9))
+
+
+
+
+
 # [0.49.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.48.1...@kenjiwb/uikit@0.49.0) (2021-09-21)
 
 
