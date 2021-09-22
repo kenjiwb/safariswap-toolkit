@@ -7,7 +7,7 @@ interface SellCreditModalProps {
   onDismiss?: () => void;
 }
 
-const StyledModal = styled(Modal)`
+const StyledModal = styled(Modal)`3
 background-image: url('/images/gradient-603408f80d379f66929884.png');
 padding:4px;
 
