@@ -282,9 +282,6 @@ const SellCreditModal: React.FC<SellCreditModalProps> = ({ onDismiss = () => nul
         <Button style={{borderRadius: 'unset'}} onClick={onDismiss}>        Enable
 </Button>
       </div>
-      <div className="footer">
-      &quot;Buy Instantly&quot; chooses random numbers, with no duplicates among your tickets. Prices are set before each round starts, equal to $5 at that time. Purchases are final.
-      </div>
   </StyledModal>
   )
 }
