@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.52.2](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.52.1...@kenjiwb/uikit@0.52.2) (2021-09-23)
+
+
+### Bug Fixes
+
+* remove package & yarn lock ([87a6710](https://github.com/kenjiwb/safariswap-toolkit/commit/87a6710bcc4d213b3eb757f7ed96565c0bd79686))
+
+
+
+
+
 ## [0.52.1](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.52.0...@kenjiwb/uikit@0.52.1) (2021-09-23)
 
 
