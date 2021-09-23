@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "../../components/Link";
-import { HelpIcon } from "../../components/Svg";
-import { Modal } from "../Modal";
+import { Modal as DefaultModal } from "../Modal";
 import WalletCard from "./WalletCard";
 import config from "./config";
 import { Login } from "./types";
@@ -12,11 +10,29 @@ interface Props {
   onDismiss?: () => void;
 }
 
-const HelpLink = styled(Link)`
-  display: flex;
-  align-self: center;
-  align-items: center;
-  margin-top: 24px;
+
+const Modal = styled(DefaultModal)`
+::after {
+  content: '';
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-image: linear-gradient(to right, #1fc7d4, rgba(248, 209, 47, 1)) !important;
+}
+
+  background: #718353;
+  position: relative;
+
+  >:first-child {
+    border-bottom: none;
+    
+  }
+
+  svg {
+    fill: rgb(254, 239, 3);
+  }
 `;
 
 const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null }) => (
@@ -30,10 +46,6 @@ const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null }) => (
         mb={index < config.length - 1 ? "8px" : "0"}
       />
     ))}
-    <HelpLink href="https://docs.pancakeswap.finance/get-started/connection-guide" external>
-      <HelpIcon color="primary" mr="6px" />
-      Learn how to connect
-    </HelpLink>
   </Modal>
 );
 
