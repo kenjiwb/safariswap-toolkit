@@ -51,6 +51,16 @@ export const links = [
     icon: "BeginnerGuideIcon",
     href: "/beginner-guide",
   },
+  {
+    label: 'ELP Token Conversion',
+    icon: 'ELPTokenConversionIcon',
+    href: '/elp-token-conversion',
+  },
+  {
+    label: 'Sell Credit',
+    icon: 'BeginnerGuideIcon',
+    href: '/create-to-nature',
+  },
 ];
 
 export const socials = [
