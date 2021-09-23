@@ -52,14 +52,14 @@ export const links = [
     href: "/beginner-guide",
   },
   {
-    label: 'ELP Token Conversion',
-    icon: 'ELPTokenConversionIcon',
-    href: '/elp-token-conversion',
+    label: "ELP Token Conversion",
+    icon: "ELPTokenConversionIcon",
+    href: "/elp-token-conversion",
   },
   {
-    label: 'Sell Credit',
-    icon: 'BeginnerGuideIcon',
-    href: '/create-to-nature',
+    label: "Sell Credit",
+    icon: "BeginnerGuideIcon",
+    href: "/create-to-nature",
   },
 ];
 

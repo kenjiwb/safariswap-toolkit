@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.51.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.50.0...@kenjiwb/uikit@0.51.0) (2021-09-23)
+
+
+### Bug Fixes
+
+* adjust modal ([051b3dd](https://github.com/kenjiwb/safariswap-toolkit/commit/051b3dd80c43878895086120e20114e768465730))
+* adjust sell credit modal ([bf896f2](https://github.com/kenjiwb/safariswap-toolkit/commit/bf896f2f2dbb0912c79bb4cf87a9289466906c75))
+* conflict fix ([31cb755](https://github.com/kenjiwb/safariswap-toolkit/commit/31cb75513d402f1bfcf6dc14f70739ca0b078379))
+
+
+### Features
+
+* add icons on side menu ([f615713](https://github.com/kenjiwb/safariswap-toolkit/commit/f6157131ee4ffff5269a18fc53dfc90f1f105234))
+
+
+
+
+
 # [0.50.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.49.0...@kenjiwb/uikit@0.50.0) (2021-09-22)
 
 

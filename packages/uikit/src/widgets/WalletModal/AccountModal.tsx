@@ -6,14 +6,13 @@ import Flex from "../../components/Box/Flex";
 import { Modal as DefaultModal } from "../Modal";
 import CopyToClipboard from "./CopyToClipboard";
 import { connectorLocalStorageKey } from "./config";
-import styled from 'styled-components'
+import styled from "styled-components";
 
 interface Props {
   account: string;
   logout: () => void;
   onDismiss?: () => void;
 }
-
 
 const Modal = styled(DefaultModal)`
   background: #718353;
@@ -40,7 +39,7 @@ const AccountModal: React.FC<Props> = ({ account, logout, onDismiss = () => null
     </Flex>
     <Flex justifyContent="center">
       <Button
-      style={{    backgroundImage: 'linear-gradient(to right,#1fc7d4,rgba(248,209,47,1))', color: "#ffffff"}}
+        style={{ backgroundImage: "linear-gradient(to right,#1fc7d4,rgba(248,209,47,1))", color: "#ffffff" }}
         scale="sm"
         variant="secondary"
         onClick={() => {

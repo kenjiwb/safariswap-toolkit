@@ -288,8 +288,8 @@ const SellCreditModal: React.FC<SellCreditModalProps> = ({ onDismiss = () => nul
           Enable
         </Button>
       </div>
-  </StyledModal>
-  )
-}
+    </StyledModal>
+  );
+};
 
 export default SellCreditModal;

@@ -4,22 +4,17 @@ import { SvgProps } from "../../../components/Svg/types";
 
 const Icon: React.FC<SvgProps> = (props) => {
   return (
-    <Svg
-      xmlns="http://www.w3.org/2000/svg"
-      version="1"
-      viewBox="0 0 200 200"
-      {...props}
-    >
-        <defs>
+    <Svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 200 200" {...props}>
+      <defs>
         <style>{`.cls-1{fill:#ffeb3d;}`}</style>
       </defs>
       <path
-       style={{fill: 'transparent'}}
+        style={{ fill: "transparent" }}
         d="M0 1000V0h2000v2000H0V1000zm693 635c90-19 202-74 264-129l50-45 38 39c91 93 258 150 439 150 147 0 156-6 156-101v-69h65c114 0 105 46 105-563 0-595 3-573-74-564-22 2-84 15-136 28-80 19-120 23-255 23-138 0-170-4-230-23-107-35-116-35-206-6-148 48-348 45-551-6-93-23-122-24-142-3-14 14-16 77-16 546 0 614-8 568 95 568h63l4 71c3 55 8 74 23 85 26 19 218 18 308-1z"
         transform="matrix(.1 0 0 -.1 0 200)"
       ></path>
       <path
-         className="cls-1"
+        className="cls-1"
         d="M495 1522c-3-3-5-185-5-404V720h54c118 0 268-43 352-101l44-30v739l-49 54c-54 59-127 100-218 122-62 15-170 26-178 18zM1335 1506c-105-27-195-81-240-145l-25-37V962c0-199 2-362 5-362 2 0 26 14 52 30 68 43 190 79 294 87l89 6v797l-62-1c-35 0-85-6-113-13z"
         transform="matrix(.1 0 0 -.1 0 200)"
       ></path>
@@ -33,4 +28,3 @@ const Icon: React.FC<SvgProps> = (props) => {
 };
 
 export default Icon;
-

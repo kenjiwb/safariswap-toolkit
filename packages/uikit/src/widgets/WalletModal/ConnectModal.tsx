@@ -10,24 +10,22 @@ interface Props {
   onDismiss?: () => void;
 }
 
-
 const Modal = styled(DefaultModal)`
-::after {
-  content: '';
-  position: absolute;
-  top: 70px;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-image: linear-gradient(to right, #1fc7d4, rgba(248, 209, 47, 1)) !important;
-}
+  ::after {
+    content: "";
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-image: linear-gradient(to right, #1fc7d4, rgba(248, 209, 47, 1)) !important;
+  }
 
   background: #718353;
   position: relative;
 
-  >:first-child {
+  > :first-child {
     border-bottom: none;
-    
   }
 
   svg {
