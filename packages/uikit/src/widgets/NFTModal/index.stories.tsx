@@ -2,6 +2,7 @@ import React from "react";
 import Button from "../../components/Button/Button";
 import Flex from "../../components/Box/Flex";
 import useNFTModal from "./useNFTModal";
+import NFTInventory from "./nft-inventory";
 
 export default {
   title: "Widgets/NFTModal",
@@ -9,7 +10,7 @@ export default {
 };
 
 export const Wallet: React.FC = () => {
-  const { onPresentNFTModal } = useNFTModal(() => null);
+  const { onPresentNFTModal } = useNFTModal(NFTInventory, () => null);
   return (
     <Flex>
       <Button onClick={onPresentNFTModal}>Open NFT modal</Button>

@@ -17,7 +17,7 @@ interface CustomButtonProps {
   isSelected?: boolean;
 }
 const Button = styled(CustomButton)<CustomButtonProps>`
-background: #384038;
+  background: #384038;
 `;
 
 const WalletCard: React.FC<Props> = ({ login, walletConfig, onDismiss, mb, isSelected }) => {

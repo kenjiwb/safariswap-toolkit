@@ -228,7 +228,7 @@ const NFTModal: React.FC<Props> = ({ totalNFT, NFTInventory, onDismiss = () => n
 
   const handlePrevious = () => {
     if (pageNumber === 1) {
-      return setPageNumber(Math.floor(NFTInventory.length % 6));
+      return setPageNumber(Math.ceil(NFTInventory.length / 6));
     }
     setPageNumber(pageNumber - 1);
   };

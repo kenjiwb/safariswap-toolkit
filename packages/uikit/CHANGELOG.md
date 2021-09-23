@@ -3,6 +3,95 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.52.1](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.52.0...@kenjiwb/uikit@0.52.1) (2021-09-23)
+
+
+### Bug Fixes
+
+* bugfix ([5b4012d](https://github.com/kenjiwb/safariswap-toolkit/commit/5b4012d70cce82bc60ead54c61b8b54cbce9dead))
+
+
+
+
+
+# [0.52.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.50.0...@kenjiwb/uikit@0.52.0) (2021-09-23)
+
+
+### Bug Fixes
+
+* adjust modal ([051b3dd](https://github.com/kenjiwb/safariswap-toolkit/commit/051b3dd80c43878895086120e20114e768465730))
+* adjust sell credit modal ([bf896f2](https://github.com/kenjiwb/safariswap-toolkit/commit/bf896f2f2dbb0912c79bb4cf87a9289466906c75))
+* conflict fix ([31cb755](https://github.com/kenjiwb/safariswap-toolkit/commit/31cb75513d402f1bfcf6dc14f70739ca0b078379))
+* Formatter check ([cd3ce49](https://github.com/kenjiwb/safariswap-toolkit/commit/cd3ce491ca55106558a923bc9e75b10d922c197b))
+
+
+### Features
+
+* add icons on side menu ([f615713](https://github.com/kenjiwb/safariswap-toolkit/commit/f6157131ee4ffff5269a18fc53dfc90f1f105234))
+
+
+
+
+
+# [0.51.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.50.0...@kenjiwb/uikit@0.51.0) (2021-09-23)
+
+
+### Bug Fixes
+
+* adjust modal ([051b3dd](https://github.com/kenjiwb/safariswap-toolkit/commit/051b3dd80c43878895086120e20114e768465730))
+* adjust sell credit modal ([bf896f2](https://github.com/kenjiwb/safariswap-toolkit/commit/bf896f2f2dbb0912c79bb4cf87a9289466906c75))
+* conflict fix ([31cb755](https://github.com/kenjiwb/safariswap-toolkit/commit/31cb75513d402f1bfcf6dc14f70739ca0b078379))
+
+
+### Features
+
+* add icons on side menu ([f615713](https://github.com/kenjiwb/safariswap-toolkit/commit/f6157131ee4ffff5269a18fc53dfc90f1f105234))
+
+
+
+
+
+# [0.50.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.49.0...@kenjiwb/uikit@0.50.0) (2021-09-22)
+
+
+### Features
+
+* useNftModal fix ([768f5b1](https://github.com/kenjiwb/safariswap-toolkit/commit/768f5b1e8767db978d866bd6b679dc25b5a91df9))
+
+
+
+
+
+# [0.49.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.48.1...@kenjiwb/uikit@0.49.0) (2021-09-21)
+
+
+### Bug Fixes
+
+* Formatter check ([14840d9](https://github.com/kenjiwb/safariswap-toolkit/commit/14840d9f11b26f1c6337f2245398b4d30a763906))
+* remove createToNature.css ([29a751d](https://github.com/kenjiwb/safariswap-toolkit/commit/29a751df8bd5865aba1ec665c1008d482dcba00c))
+
+
+### Features
+
+* add sell credit modal ([9a07526](https://github.com/kenjiwb/safariswap-toolkit/commit/9a075268303f986829888d13b3ec9a5ad7cce4f6))
+* change balance credit types number to string ([5dd7b8f](https://github.com/kenjiwb/safariswap-toolkit/commit/5dd7b8fcf43b635336f117de100bf104abb0de99))
+
+
+
+
+
+## [0.48.1](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.48.0...@kenjiwb/uikit@0.48.1) (2021-09-18)
+
+
+### Bug Fixes
+
+* **import:** Banner import fix ([0765fa4](https://github.com/kenjiwb/safariswap-toolkit/commit/0765fa47a6eb72486671436de98c6801317a66da))
+* **merge:** Claimprize banner ([551b49b](https://github.com/kenjiwb/safariswap-toolkit/commit/551b49b9f9caa745ad90ba59bbf15ae89e695d06))
+
+
+
+
+
 # [0.48.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.47.0...@kenjiwb/uikit@0.48.0) (2021-09-17)
 
 

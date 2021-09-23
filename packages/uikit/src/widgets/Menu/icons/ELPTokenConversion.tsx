@@ -4,12 +4,7 @@ import { SvgProps } from "../../../components/Svg/types";
 
 const Icon: React.FC<SvgProps> = (props) => {
   return (
-    <Svg
-      xmlns="http://www.w3.org/2000/svg"
-      version="1"
-      viewBox="0 0 200 200"
-      {...props}
-    >
+    <Svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 200 200" {...props}>
       <defs>
         <style>{`.cls-1{fill:#ffeb3d;}`}</style>
       </defs>
@@ -25,4 +20,3 @@ const Icon: React.FC<SvgProps> = (props) => {
 };
 
 export default Icon;
-

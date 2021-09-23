@@ -37,7 +37,9 @@ const MenuEntry = styled.div<Props>`
   background-color: ${({ secondary, theme }) => (secondary ? theme.colors.background : "transparent")};
   color: ${({ theme }) => theme.colors.textSubtle};
   // box-shadow: ${({ isActive, theme }) => (isActive ? `inset 4px 0px 0px ${theme.colors.primary}` : "none")};
-  ${({ isActive, }) => (isActive && `  ::after {
+  ${({ isActive }) =>
+    isActive &&
+    `  ::after {
     content: '';
     position: absolute;
     top: 0;
@@ -45,8 +47,7 @@ const MenuEntry = styled.div<Props>`
     height: 100%;
     width: 4px;
     background-image: linear-gradient(to bottom, #1fc7d4, rgba(248, 209, 47, 1)) !important;
-  }`)}
-
+  }`}
 
   a {
     display: flex;

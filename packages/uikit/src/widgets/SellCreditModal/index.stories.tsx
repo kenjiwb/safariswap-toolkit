@@ -9,9 +9,7 @@ export default {
 };
 
 export const Wallet: React.FC = () => {
-  const { onPresentSellCreditModal } = useSellCreditModal(
-    () => null,
-  );
+  const { onPresentSellCreditModal } = useSellCreditModal(() => null);
   return (
     <Flex>
       <Button onClick={onPresentSellCreditModal}>Open Sell Credit modal</Button>
