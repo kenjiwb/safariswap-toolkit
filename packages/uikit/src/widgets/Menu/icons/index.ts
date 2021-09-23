@@ -19,6 +19,7 @@ export { default as PredictionsIcon } from "./Predictions";
 export { default as NFTMarketIcon } from "./NFTMarket";
 export { default as YourNFTIcon } from "./YourNFT";
 export { default as BeginnerGuideIcon } from "./BeginnerGuide";
+export { default as ELPTokenConversionIcon } from "./ELPTokenConversion";
 export { default as SunIcon } from "./Sun";
 export { default as TeamBattleIcon } from "./TeamBattle";
 export { default as TelegramIcon } from "./Telegram";
