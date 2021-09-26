@@ -2,7 +2,7 @@
   "name": "safari-toolkit",
   "version": "1.0.0",
   "description": "Safari frontend packages",
-  "private": false,
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
