@@ -10,7 +10,7 @@ export default {
 };
 
 export const Wallet: React.FC = () => {
-  const { onPresentNFTModal } = useNFTModal(NFTInventory, () => null);
+  const { onPresentNFTModal } = useNFTModal(NFTInventory, () => null, 'Total');
   return (
     <Flex>
       <Button onClick={onPresentNFTModal}>Open NFT modal</Button>
