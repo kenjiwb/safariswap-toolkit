@@ -22,6 +22,7 @@ interface NFT {
 }
 
 interface Props {
+  title?: string;
   totalNFT: number;
   NFTInventory: any;
   onDismiss?: () => void;
@@ -212,7 +213,7 @@ const renderNft = (inventoryList: NFT[], pageNumber: number) => {
   });
 };
 
-const NFTModal: React.FC<Props> = ({ totalNFT, NFTInventory, onDismiss = () => null }) => {
+const NFTModal: React.FC<Props> = ({title = 'Total', totalNFT, NFTInventory, onDismiss = () => null }) => {
   const [pageNumber, setPageNumber] = useState<number>(1);
 
   const handlePageChange = (pageNumber1: number) => {
@@ -234,7 +235,7 @@ const NFTModal: React.FC<Props> = ({ totalNFT, NFTInventory, onDismiss = () => n
   };
 
   return (
-    <Modal title={`Total ${totalNFT}`} onDismiss={onDismiss}>
+    <Modal title={`${title} ${totalNFT}`} onDismiss={onDismiss}>
       <Container>
         {renderNft(NFTInventory, pageNumber)}
         {NFTInventory.length > 6 && (
