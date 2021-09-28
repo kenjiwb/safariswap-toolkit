@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.54.1](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.54.0...@kenjiwb/uikit@0.54.1) (2021-09-28)
+
+
+### Bug Fixes
+
+* auth token ([615c963](https://github.com/kenjiwb/safariswap-toolkit/commit/615c96307217c4e7811760712ed422e56cec77a9))
+
+
+
+
+
 # [0.54.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.52.2...@kenjiwb/uikit@0.54.0) (2021-09-28)
 
 
