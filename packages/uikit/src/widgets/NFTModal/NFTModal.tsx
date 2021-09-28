@@ -177,14 +177,17 @@ const renderNft = (inventoryList: NFT[], pageNumber: number) => {
     return (
       <StyledCardContent>
         <div>
-          <Card className={"hover " + (isLegend ? "sad" : "")} style={{background: '#15171a', margin: "0.4rem", borderRadius: "5px" }}>
+          <Card
+            className={"hover " + (isLegend ? "sad" : "")}
+            style={{ background: "#15171a", margin: "0.4rem", borderRadius: "5px" }}
+          >
             {" "}
             <CardBody style={{ borderRadius: "5px", padding: "10px", margin: "0" }}>
               <img style={{ borderRadius: "5px", maxWidth: "100%", height: "auto" }} src={NFT.img} alt="" />
             </CardBody>{" "}
             <CardFooter style={{ padding: "12px 16px 16px" }}>
               <p className="details">
-                <span style={{color: '#fff', fontSize: "16px", fontWeight: "bolder" }}>{NFT?.name}</span>
+                <span style={{ color: "#fff", fontSize: "16px", fontWeight: "bolder" }}>{NFT?.name}</span>
                 <span
                   style={{
                     background: `${NFT?.color}`,
@@ -207,7 +210,7 @@ const renderNft = (inventoryList: NFT[], pageNumber: number) => {
   });
 };
 
-const NFTModal: React.FC<Props> = ({title = 'Total', totalNFT, NFTInventory, onDismiss = () => null }) => {
+const NFTModal: React.FC<Props> = ({ title = "Total", totalNFT, NFTInventory, onDismiss = () => null }) => {
   const [pageNumber, setPageNumber] = useState<number>(1);
 
   const handlePageChange = (pageNumber1: number) => {

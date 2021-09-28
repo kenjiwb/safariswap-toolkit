@@ -57,19 +57,19 @@ export const links = [
     href: "/elp-token-conversion",
   },
   {
-    label: 'Sell Credit',
-    icon: 'QuestionMarkIcon',
-    href: '/create-to-nature',
+    label: "Sell Credit",
+    icon: "QuestionMarkIcon",
+    href: "/create-to-nature",
   },
   {
-    label: 'Upgrade',
-    icon: 'QuestionMarkIcon',
-    href: '/upgrade',
+    label: "Upgrade",
+    icon: "QuestionMarkIcon",
+    href: "/upgrade",
   },
   {
-    label: 'Swap',
-    icon: 'QuestionMarkIcon',
-    href: '/swap',
+    label: "Swap",
+    icon: "QuestionMarkIcon",
+    href: "/swap",
   },
 ];
 
