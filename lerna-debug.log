@@ -1,0 +1,7 @@
+46 error Error: Command failed with exit code 128: git tag @kenjiwb/uikit@0.53.1 -m @kenjiwb/uikit@0.53.1
+46 error fatal: tag '@kenjiwb/uikit@0.53.1' already exists
+46 error     at makeError (/Users/betakurnia/Documents/React/safariswap-toolkit/node_modules/execa/lib/error.js:60:11)
+46 error     at handlePromise (/Users/betakurnia/Documents/React/safariswap-toolkit/node_modules/execa/index.js:118:26)
+46 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+46 error     at async Promise.all (index 0)
+46 error     at async Promise.all (index 0)
