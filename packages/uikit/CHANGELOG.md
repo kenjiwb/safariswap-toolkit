@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.54.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.52.2...@kenjiwb/uikit@0.54.0) (2021-09-28)
+
+
+### Bug Fixes
+
+* adjust nft modal ([5e30380](https://github.com/kenjiwb/safariswap-toolkit/commit/5e3038022c55c261474dd714aa62d00fb2afa50c))
+* Formatter check ([d760c3e](https://github.com/kenjiwb/safariswap-toolkit/commit/d760c3e8f2fb814ebd403827adc913eaca8b8941))
+
+
+### Features
+
+* add question mark icons on menu ([c5e162b](https://github.com/kenjiwb/safariswap-toolkit/commit/c5e162b0457fd56cb772ef849fc74c02abfe9588))
+* make nft modal title dynamic ([1fb4c4c](https://github.com/kenjiwb/safariswap-toolkit/commit/1fb4c4ca2b0a429f12c4db288d83b522e698ec82))
+
+
+
+
+
 # [0.53.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.52.2...@kenjiwb/uikit@0.53.0) (2021-09-28)
 
 
