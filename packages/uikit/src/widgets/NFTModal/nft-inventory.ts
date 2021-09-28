@@ -35,6 +35,8 @@ const NFTInventory = [
   { name: "Giraffy", price: "300$", variant: "Rare", color: "blue", text: "white", img: "" },
   { name: "Hippy", price: "200$", variant: "Special", color: "#ff6700", text: "white", img: "" },
   { name: "Zebby", price: "100$", variant: "Common", color: "white", text: "#46373B", img: "" },
+  { name: "Zebby", price: "100$", variant: "Common", color: "white", text: "#46373B", img: "" },
+  { name: "Zebby", price: "100$", variant: "Common", color: "white", text: "#46373B", img: "" },
 ];
 
 // this is build mode disabled image

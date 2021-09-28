@@ -17,11 +17,11 @@ interface NFT {
   name: string;
   variant: string;
   color: string;
-  price: number;
   img: string;
 }
 
 interface Props {
+  title?: string;
   totalNFT: number;
   NFTInventory: any;
   onDismiss?: () => void;
@@ -177,14 +177,14 @@ const renderNft = (inventoryList: NFT[], pageNumber: number) => {
     return (
       <StyledCardContent>
         <div>
-          <Card className={"hover " + (isLegend ? "sad" : "")} style={{ margin: "0.4rem", borderRadius: "5px" }}>
+          <Card className={"hover " + (isLegend ? "sad" : "")} style={{background: '#15171a', margin: "0.4rem", borderRadius: "5px" }}>
             {" "}
             <CardBody style={{ borderRadius: "5px", padding: "10px", margin: "0" }}>
               <img style={{ borderRadius: "5px", maxWidth: "100%", height: "auto" }} src={NFT.img} alt="" />
             </CardBody>{" "}
             <CardFooter style={{ padding: "12px 16px 16px" }}>
               <p className="details">
-                <span style={{ fontSize: "2rem", fontWeight: "bolder" }}>{NFT?.name}</span>
+                <span style={{color: '#fff', fontSize: "16px", fontWeight: "bolder" }}>{NFT?.name}</span>
                 <span
                   style={{
                     background: `${NFT?.color}`,
@@ -199,11 +199,6 @@ const renderNft = (inventoryList: NFT[], pageNumber: number) => {
                   {NFT?.variant}{" "}
                 </span>
               </p>
-              <p className="details-description " style={{ marginTop: "4px" }}>
-                {" "}
-                <span>Price:</span>
-                <span style={{ fontSize: "1.2rem", marginLeft: 16 }}> {NFT?.price} </span>{" "}
-              </p>
             </CardFooter>
           </Card>
         </div>
@@ -212,7 +207,7 @@ const renderNft = (inventoryList: NFT[], pageNumber: number) => {
   });
 };
 
-const NFTModal: React.FC<Props> = ({ totalNFT, NFTInventory, onDismiss = () => null }) => {
+const NFTModal: React.FC<Props> = ({title = 'Total', totalNFT, NFTInventory, onDismiss = () => null }) => {
   const [pageNumber, setPageNumber] = useState<number>(1);
 
   const handlePageChange = (pageNumber1: number) => {
@@ -234,7 +229,7 @@ const NFTModal: React.FC<Props> = ({ totalNFT, NFTInventory, onDismiss = () => n
   };
 
   return (
-    <Modal title={`Total ${totalNFT}`} onDismiss={onDismiss}>
+    <Modal title={`${title} ${totalNFT}`} onDismiss={onDismiss}>
       <Container>
         {renderNft(NFTInventory, pageNumber)}
         {NFTInventory.length > 6 && (
