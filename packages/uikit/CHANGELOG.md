@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.53.8](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.53.7...@kenjiwb/uikit@0.53.8) (2021-09-29)
+
+**Note:** Version bump only for package @kenjiwb/uikit
+
+
+
+
+
 ## [0.53.7](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.53.6...@kenjiwb/uikit@0.53.7) (2021-09-29)
 
 
