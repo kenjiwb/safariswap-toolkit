@@ -58,7 +58,7 @@ export const links = [
   },
   {
     label: "Sell Credit",
-    icon: "ELPTokenConversionIcon",
+    icon: "QuestionMarkIcon",
     href: "/create-to-nature",
   },
   {
