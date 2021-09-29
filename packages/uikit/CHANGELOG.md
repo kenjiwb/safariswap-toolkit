@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.53.7](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.53.6...@kenjiwb/uikit@0.53.7) (2021-09-29)
+
+
+### Bug Fixes
+
+* remove lerna-debug.log ([143aa1f](https://github.com/kenjiwb/safariswap-toolkit/commit/143aa1f3e284e20702cc8a6a848765d2824ffbf5))
+
+
+
+
+
 ## [0.53.6](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.53.5...@kenjiwb/uikit@0.53.6) (2021-09-29)
 
 
