@@ -70,6 +70,7 @@ export { default as SearchIcon } from "./Icons/Search";
 export { default as StarFillIcon } from "./Icons/StarFill";
 export { default as StarLineIcon } from "./Icons/StarLine";
 export { default as SwapVertIcon } from "./Icons/SwapVert";
+export { default as Swap } from "./Icons/Swap";
 export { default as SyncAltIcon } from "./Icons/SyncAlt";
 export { default as VisibilityOff } from "./Icons/VisibilityOff";
 export { default as VisibilityOn } from "./Icons/VisibilityOn";

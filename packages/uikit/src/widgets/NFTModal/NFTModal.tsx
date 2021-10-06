@@ -1,3 +1,4 @@
+/* eslint-disable react/require-default-props */
 /* eslint-disable consistent-return */
 /* eslint-disable prefer-template */
 import React, { useState } from "react";
@@ -11,6 +12,7 @@ import {
   ArrowBackIcon as DefaultArrowBackIcon,
   ArrowForwardIcon as DefaultArrowForwardIcon,
 } from "../../components/Svg";
+import "./style.css";
 
 interface NFT {
   text: string;
@@ -232,7 +234,7 @@ const NFTModal: React.FC<Props> = ({ title = "Total", totalNFT, NFTInventory, on
   };
 
   return (
-    <Modal title={`${title} ${totalNFT}`} onDismiss={onDismiss}>
+    <Modal title={`${title} ${totalNFT}`} onDismiss={onDismiss} className="buy-box">
       <Container>
         {renderNft(NFTInventory, pageNumber)}
         {NFTInventory.length > 6 && (
