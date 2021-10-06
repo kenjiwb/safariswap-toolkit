@@ -12,7 +12,6 @@ import {
   ArrowBackIcon as DefaultArrowBackIcon,
   ArrowForwardIcon as DefaultArrowForwardIcon,
 } from "../../components/Svg";
-import "./style.css";
 
 interface NFT {
   text: string;
@@ -83,6 +82,30 @@ max-width: 900px;
     padding-top: 0px;
     padding-bottom: 0px;
   }
+  animation: popup 0.6s 0.2s ease forwards;
+  position: relative;
+  opacity: 0;
+  margin: 1rem;
+}
+@keyframes popup {
+  0% {
+    transform: scale(0.7);
+
+    opacity: 0;
+  }
+  45% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  80% {
+    transform: scale(0.95);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
  
 `;
 
@@ -234,7 +257,7 @@ const NFTModal: React.FC<Props> = ({ title = "Total", totalNFT, NFTInventory, on
   };
 
   return (
-    <Modal title={`${title} ${totalNFT}`} onDismiss={onDismiss} className="buy-box">
+    <Modal title={`${title} ${totalNFT}`} onDismiss={onDismiss}>
       <Container>
         {renderNft(NFTInventory, pageNumber)}
         {NFTInventory.length > 6 && (
