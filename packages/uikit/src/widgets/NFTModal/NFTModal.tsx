@@ -64,6 +64,25 @@ transition: display 2s linear 1s;
 overflow: auto;
 background: ${({ theme }) => theme.colors.safariGreen3}; 
 max-width: 900px;
+> :nth-child(1) {
+  padding-top: 4px;
+  border-bottom: none;
+  padding-bottom: 0px;
+}
+  > :nth-child(2) {
+    padding-top: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 4px;
+    border-bottom: none;
+  } 
+  }
+
+  .ModalActions__StyledModalActions-sc-1gsjd9w-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
 animation: popup 0.6s 0.2s ease forwards;
 position: relative;
 opacity: 0;
@@ -88,24 +107,6 @@ margin: 1rem;
   opacity: 1;
 }
 }
-> :nth-child(1) {
-  padding-top: 4px;
-  border-bottom: none;
-  padding-bottom: 0px;
-}
-  > :nth-child(2) {
-    padding-top: 0px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 4px;
-    border-bottom: none;
-  } 
-  }
-
-  .ModalActions__StyledModalActions-sc-1gsjd9w-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
 `;
 
 const PaginationContainer = styled.div`
