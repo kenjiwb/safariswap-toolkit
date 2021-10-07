@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.53.12](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.53.11...@kenjiwb/uikit@0.53.12) (2021-10-07)
+
+
+### Bug Fixes
+
+* **NFTModal:** Fixed Modal Popup animation ([eb44ebe](https://github.com/kenjiwb/safariswap-toolkit/commit/eb44ebeb2218c0b10bcf07db0543a0d7b66a7f3d))
+
+
+
+
+
 ## [0.53.11](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.53.10...@kenjiwb/uikit@0.53.11) (2021-10-07)
 
 
