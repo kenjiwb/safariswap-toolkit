@@ -64,6 +64,30 @@ transition: display 2s linear 1s;
 overflow: auto;
 background: ${({ theme }) => theme.colors.safariGreen3}; 
 max-width: 900px;
+animation: popup 0.6s 0.2s ease forwards;
+position: relative;
+opacity: 0;
+margin: 1rem;
+}
+@keyframes popup {
+0% {
+  transform: scale(0.7);
+
+  opacity: 0;
+}
+45% {
+  transform: scale(1.05);
+  opacity: 1;
+}
+80% {
+  transform: scale(0.95);
+  opacity: 1;
+}
+100% {
+  transform: scale(1);
+  opacity: 1;
+}
+}
 > :nth-child(1) {
   padding-top: 4px;
   border-bottom: none;
@@ -82,31 +106,6 @@ max-width: 900px;
     padding-top: 0px;
     padding-bottom: 0px;
   }
-  animation: popup 0.6s 0.2s ease forwards;
-  position: relative;
-  opacity: 0;
-  margin: 1rem;
-}
-@keyframes popup {
-  0% {
-    transform: scale(0.7);
-
-    opacity: 0;
-  }
-  45% {
-    transform: scale(1.05);
-    opacity: 1;
-  }
-  80% {
-    transform: scale(0.95);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
- 
 `;
 
 const PaginationContainer = styled.div`
