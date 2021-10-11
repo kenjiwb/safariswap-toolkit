@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.53.16](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.53.15...@kenjiwb/uikit@0.53.16) (2021-10-11)
+
+
+### Bug Fixes
+
+* ** nfts:** Add animation in nftmodel ([02f1437](https://github.com/kenjiwb/safariswap-toolkit/commit/02f1437a337551c64092264007595b67c7836f10))
+* **Menu:** change redirect url ([67d9384](https://github.com/kenjiwb/safariswap-toolkit/commit/67d9384d87ef02a832671919cc808927845b004a))
+
+
+
+
+
 ## [0.53.15](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.53.14...@kenjiwb/uikit@0.53.15) (2021-10-11)
 
 
