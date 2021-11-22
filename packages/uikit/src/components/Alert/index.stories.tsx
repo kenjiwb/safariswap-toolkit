@@ -21,22 +21,30 @@ export const Default: React.FC = () => {
     <div style={{ padding: "32px", width: "400px" }}>
       <Row>
         <Alert title="Info">
-          <Text as="p">This is a description</Text>
+          <Text style={{ color: "black" }} as="p">
+            This is a description
+          </Text>
         </Alert>
       </Row>
       <Row>
         <Alert title="Success" variant="success">
-          <Text as="p">This is a description</Text>
+          <Text style={{ color: "black" }} as="p">
+            This is a description
+          </Text>
         </Alert>
       </Row>
       <Row>
         <Alert title="Warning" variant="warning">
-          <Text as="p">This is a description</Text>
+          <Text style={{ color: "black" }} as="p">
+            This is a description
+          </Text>
         </Alert>
       </Row>
       <Row>
         <Alert title="Danger" variant="danger">
-          <Text as="p">This is a description</Text>
+          <Text style={{ color: "black" }} as="p">
+            This is a description
+          </Text>
         </Alert>
       </Row>
     </div>
