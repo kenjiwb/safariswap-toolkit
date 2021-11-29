@@ -58,8 +58,18 @@ export const links = [
   },
   {
     label: "Sell Credit",
-    icon: "BeginnerGuideIcon",
+    icon: "QuestionMarkIcon",
     href: "/create-to-nature",
+  },
+  {
+    label: "Upgrade",
+    icon: "QuestionMarkIcon",
+    href: "/upgrade",
+  },
+  {
+    label: "Swap",
+    icon: "QuestionMarkIcon",
+    href: "/swap",
   },
 ];
 

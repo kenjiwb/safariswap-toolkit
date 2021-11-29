@@ -3,6 +3,204 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.53.17](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.53.16...@kenjiwb/uikit@0.53.17) (2021-10-11)
+
+
+### Bug Fixes
+
+* ** nfts:** Add animation in nftmodel ([39a7f21](https://github.com/kenjiwb/safariswap-toolkit/commit/39a7f21cdc2e2792d9e1bf61f8563fa96be8dc61))
+
+
+
+
+
+## [0.53.16](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.53.15...@kenjiwb/uikit@0.53.16) (2021-10-11)
+
+
+### Bug Fixes
+
+* ** nfts:** Add animation in nftmodel ([02f1437](https://github.com/kenjiwb/safariswap-toolkit/commit/02f1437a337551c64092264007595b67c7836f10))
+* **Menu:** change redirect url ([67d9384](https://github.com/kenjiwb/safariswap-toolkit/commit/67d9384d87ef02a832671919cc808927845b004a))
+
+
+
+
+
+## [0.53.15](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.53.14...@kenjiwb/uikit@0.53.15) (2021-10-11)
+
+
+### Bug Fixes
+
+* **NFTModal:** Fixed Modal Popup animation ([c61f9da](https://github.com/kenjiwb/safariswap-toolkit/commit/c61f9da7bc644c5c2846a205452adb7afc503465))
+
+
+
+
+
+## [0.53.14](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.53.13...@kenjiwb/uikit@0.53.14) (2021-10-11)
+
+**Note:** Version bump only for package @kenjiwb/uikit
+
+
+
+
+
+## [0.53.13](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.53.12...@kenjiwb/uikit@0.53.13) (2021-10-07)
+
+**Note:** Version bump only for package @kenjiwb/uikit
+
+
+
+
+
+## [0.53.12](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.53.11...@kenjiwb/uikit@0.53.12) (2021-10-07)
+
+
+### Bug Fixes
+
+* **NFTModal:** Fixed Modal Popup animation ([eb44ebe](https://github.com/kenjiwb/safariswap-toolkit/commit/eb44ebeb2218c0b10bcf07db0543a0d7b66a7f3d))
+
+
+
+
+
+## [0.53.11](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.53.10...@kenjiwb/uikit@0.53.11) (2021-10-07)
+
+
+### Bug Fixes
+
+* **NFTModal:** Fixed Modal Popup animation ([6065af4](https://github.com/kenjiwb/safariswap-toolkit/commit/6065af48c8f02ddefa9ff838755f3e76b23f7b25))
+
+
+
+
+
+## [0.53.10](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.53.9...@kenjiwb/uikit@0.53.10) (2021-10-07)
+
+
+### Bug Fixes
+
+* **NFTModal:** Fixed Modal Popup animation ([3232fbe](https://github.com/kenjiwb/safariswap-toolkit/commit/3232fbe9fceb190b84e0bd2e4690cf305b9e3c2c))
+
+
+
+
+
+## [0.53.9](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.53.8...@kenjiwb/uikit@0.53.9) (2021-10-06)
+
+
+### Bug Fixes
+
+* **NFTModal:** Fixed Modal Popup animation ([1eb5ac6](https://github.com/kenjiwb/safariswap-toolkit/commit/1eb5ac6e8ddfa5c787517447425e7afd16d00703))
+* **NFTModal:** Fixed Modal Popup animation ([1e3ccf8](https://github.com/kenjiwb/safariswap-toolkit/commit/1e3ccf8efb147242ac309dc81b5a7161deaed91c))
+
+
+
+
+
+## [0.53.8](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.53.7...@kenjiwb/uikit@0.53.8) (2021-09-29)
+
+**Note:** Version bump only for package @kenjiwb/uikit
+
+
+
+
+
+## [0.53.7](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.53.6...@kenjiwb/uikit@0.53.7) (2021-09-29)
+
+
+### Bug Fixes
+
+* remove lerna-debug.log ([143aa1f](https://github.com/kenjiwb/safariswap-toolkit/commit/143aa1f3e284e20702cc8a6a848765d2824ffbf5))
+
+
+
+
+
+## [0.53.6](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.53.5...@kenjiwb/uikit@0.53.6) (2021-09-29)
+
+
+### Bug Fixes
+
+* **token:** Update token acess ([3c176a0](https://github.com/kenjiwb/safariswap-toolkit/commit/3c176a0c3cf06eb439d14c6294b3b8e465ad908f))
+
+
+
+
+
+## [0.53.5](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.53.3...@kenjiwb/uikit@0.53.5) (2021-09-29)
+
+
+### Bug Fixes
+
+* small fix ([eec8faf](https://github.com/kenjiwb/safariswap-toolkit/commit/eec8faf5ae020f5e98d5e4565d481669b4d1052f))
+
+
+
+
+
+## [0.53.4](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.53.3...@kenjiwb/uikit@0.53.4) (2021-09-29)
+
+
+### Bug Fixes
+
+* small fix ([eec8faf](https://github.com/kenjiwb/safariswap-toolkit/commit/eec8faf5ae020f5e98d5e4565d481669b4d1052f))
+
+
+
+
+
+## [0.53.3](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.53.2...@kenjiwb/uikit@0.53.3) (2021-09-28)
+
+
+### Bug Fixes
+
+* auth token ([0ef8bff](https://github.com/kenjiwb/safariswap-toolkit/commit/0ef8bff53231085f318d221ca18a3b1eaef50f32))
+
+
+
+
+
+## [0.53.2](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.53.0...@kenjiwb/uikit@0.53.2) (2021-09-28)
+
+
+### Bug Fixes
+
+* small fix ([196b507](https://github.com/kenjiwb/safariswap-toolkit/commit/196b507df94345b4b562dda569ba5a3f110f298f))
+
+
+
+
+
+## [0.53.1](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.53.0...@kenjiwb/uikit@0.53.1) (2021-09-28)
+
+
+### Bug Fixes
+
+* small fix ([196b507](https://github.com/kenjiwb/safariswap-toolkit/commit/196b507df94345b4b562dda569ba5a3f110f298f))
+
+
+
+
+
+# [0.53.0](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.52.2...@kenjiwb/uikit@0.53.0) (2021-09-28)
+
+
+### Bug Fixes
+
+* adjust nft modal ([5e30380](https://github.com/kenjiwb/safariswap-toolkit/commit/5e3038022c55c261474dd714aa62d00fb2afa50c))
+* Formatter check ([710a5a1](https://github.com/kenjiwb/safariswap-toolkit/commit/710a5a145543082c9adfae135b70c4523fae7b73))
+
+
+### Features
+
+* add question mark icons on menu ([c5e162b](https://github.com/kenjiwb/safariswap-toolkit/commit/c5e162b0457fd56cb772ef849fc74c02abfe9588))
+* make nft modal title dynamic ([1fb4c4c](https://github.com/kenjiwb/safariswap-toolkit/commit/1fb4c4ca2b0a429f12c4db288d83b522e698ec82))
+
+
+
+
+
 ## [0.52.2](https://github.com/kenjiwb/safariswap-toolkit/compare/@kenjiwb/uikit@0.52.1...@kenjiwb/uikit@0.52.2) (2021-09-23)
 
 

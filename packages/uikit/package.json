@@ -1,6 +1,6 @@
 {
   "name": "@kenjiwb/uikit",
-  "version": "0.52.2",
+  "version": "0.53.17",
   "description": "Set of UI components for pancake projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -61,5 +61,5 @@
     "access": "public",
     "registry": "https://npm.pkg.github.com/"
   },
-  "gitHead": "7d67ea13c036f9069d5befd46cf4d65c80483721"
+  "gitHead": "a132843ac517cd239149739a17ee395e6275f6c5"
 }
