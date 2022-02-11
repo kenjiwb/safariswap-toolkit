@@ -69,7 +69,8 @@ const CloseHandler = styled.div`
 
 const StyledAlert = styled(Flex)`
   position: relative;
-  background-color: ${({ theme }) => theme.alert.background};
+  // background-color: ${({ theme }) => theme.alert.background};
+  background-color: white;
   border-radius: 16px;
   box-shadow: 0px 20px 36px -8px rgba(14, 14, 44, 0.1), 0px 1px 1px rgba(0, 0, 0, 0.05);
 `;
@@ -83,8 +84,16 @@ const Alert: React.FC<AlertProps> = ({ title, children, variant, onClick }) => {
         <Icon color="currentColor" width="24px" />
       </IconLabel>
       <Details hasHandler={!!onClick}>
-        <Text bold>{title}</Text>
-        {typeof children === "string" ? <Text as="p">{children}</Text> : children}
+        <Text bold style={{ color: "black" }}>
+          {title}
+        </Text>
+        {typeof children === "string" ? (
+          <Text style={{ color: "black" }} as="p">
+            {children}
+          </Text>
+        ) : (
+          children
+        )}
       </Details>
       {onClick && (
         <CloseHandler>

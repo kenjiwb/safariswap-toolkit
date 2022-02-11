@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect, useRef } from "react";
 import { CSSTransition } from "react-transition-group";
 import styled from "styled-components";
+import { backgroundColor, styles } from "styled-system";
 import { Alert, alertVariants } from "../../components/Alert";
 import { ToastProps, types } from "./types";
 
@@ -17,7 +18,6 @@ const StyledToast = styled.div`
   max-width: calc(100% - 32px);
   transition: all 250ms ease-in;
   width: 100%;
-
   ${({ theme }) => theme.mediaQueries.sm} {
     max-width: 400px;
   }
